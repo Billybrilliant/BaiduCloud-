@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bootstrap</title>
+    <link href="../../../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/login.min.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="container">
+            <a href="../../../home page/src/html/index.html">
+                <img src="../images/logo_white.2x_24d7ed13 (1).png" alt="百度云" width="87" height="30" class="logo">
+                <div class="right">
+                    <a href="../../../home page/src/html/index.html">返回首页 </a>
+                    <a href="#"> English</a>
+                </div>
+            </a>
+        </div>
+    </header>
+    <!-- 注册部分 -->
+    <div class="main">
+        <div class="brand" style="height: 337px;">
+
+        </div>
+        <div id="root">
+            <table cellpadding="0" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td id="loginleft"><a href="#"><img src="../images/experience-v4.png" alt=""></a></td>
+                        <td>
+                            <div id="login" class="login-box uc-common-login">
+                                <div id="common-login" class="login uc-common-login-small">
+                                    <div id="change-login" class="change-login">
+                                        <!-- 选项卡菜单 -->
+                                        <div>
+                                            <a href="#" class="passport-account select">
+                                                百度账户
+                                            </a>
+                                            <a href="#" id="choose-uc-login" class="">
+                                                云账号(推广账号)
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- 登录部分 -->
+                                    <div id="passport-login" class="tang-pass-login" style="display: block; visibility: visible; opacity: 1;">
+                                        <!-- 默认状态显示表单 -->
+                                        <form action=""  id="loginone" class="pass-form pass-form-normal" method="POST" autocomplete="on" style="display:none;">
+                                           <p id="meslog"><a href="#" >短信快捷登录</a></p> 
+                                                <input type="text" id="uname" name="uname" class="pass-text-input pass-text-input-userName" placeholder="手机/邮箱/用户名">
+                                                <input type="text" id="upwd" name="upwd" class="pass-text-input pass-text-input-userName" placeholder="密码">
+                                               <p id="subp">
+                                                    <input type="submit" id="submit" type="submit" value="登录" >
+                                                    <a href="../html/reg.html" class="rega" id="rega">立即注册</a>
+                                                    <a href="#"class="rega">忘记密码</a>
+                                               </p>                         
+                                        </form>
+                                        <!-- 默认不显示表单 -->
+                                        <form id="logintwo" action="" method="post"  >
+                                            <div class="login-info">
+                                                <input type="text" id="logintwo-uname" name="logintwo-uname"placeholder="用户名"maxlength="32">
+                                                <input type="text" id="logintwo-upwd" name="logintwo-upwd"placeholder="密码"maxlength="32">
+                                                <input type="text" id="logintwo-test" name="logintwo-test"placeholder="验证码"maxlength="4">
+                                                <input type="submit" id="logintwo-submit" name="logintwo-submit" value="登录">
+                                            </div>
+                                        </form> 
+                                    </div>
+                                </div>
+                                <!-- 右下角二维码  -->
+                                <div></div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- 尾部 -->
+    <footer>
+        © 2018 Baidu <a href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://cloud.baidu.com/qualification/isp.html"
+            target="_blank">增值电信业务经营许可证：B1.B2-20100266</a>&nbsp;&nbsp;&nbsp;&nbsp;京ICP证030173号&nbsp;&nbsp;&nbsp;&nbsp;<a
+            target="blank" href="https://cloud.baidu.com/doc/UserGuide/User_Service_Agreement.html#.E9.9A.90.E7.A7.81.E6.94.BF.E7.AD.96">隐私政策</a>
+    </footer>
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="../../../bower_components/jquery/dist/jquery.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="../../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

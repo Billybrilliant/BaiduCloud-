@@ -1,0 +1,255 @@
+@charset "utf-8";
+
+a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.6);
+}
+li{
+    list-style: none;
+    color: rgba(255,255,255,0.8); 
+}
+
+@media (min-width: 1360px) {
+    #sousuo{
+        width: 100%;
+    }
+ }
+ @media (max-width: 1200px) {
+    #sousuo{
+        width: 1360px!important;
+    }
+ }
+ #sousuo{
+    height: 300px;
+    width: 100%;
+    background-image:url(../img/d31b0ef41bd5ad6e149c500d8dcb39dbb7fd3ceb.jpg); 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+ }
+
+#help_center{
+    font-size: 36px;
+    color: #fff;
+}
+#help_sousuo{
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+    top: 110px;
+}
+#commit{
+    width: 10%;
+    height: 50px!important;
+    background: #108CEE;
+    border:none;
+    color: #fff;
+}
+#tuijie{
+    display: block;
+    margin-left: 0!important;
+    padding-left: 0!important;
+}
+#tuijie>li{
+    list-style: none;
+    float: left;
+}
+
+#tuijie>li>a{
+    font-size: 14px;
+}
+#tuijie>li>a:hover{
+    color: rgba(255,255,255,0.8); 
+}
+/* ============================================================= */
+
+.nav{
+    width: 100%;
+    height: 70px;
+    background: #F5F5F5;
+}
+.nav_list{
+    height: 70px;
+    width: 1180px;
+    margin: 0 auto;
+}
+.nav_list>ul{
+    width: 100%;
+    height: 100%;
+}
+.nav_list>ul>li{
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+ul>li>a>span{
+    display: block;
+    font-size: 16px;
+    height: 70px;
+    line-height:70px;
+    text-align: center;
+    color: #333;
+}
+/* =========================常用服务============================== */
+.server>div>h2{
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.often_servers1{
+    width:18%;
+    border: 1px solid rgba(0,0,0, 0.6);
+    float: left;
+    margin-left: 2%;
+}
+
+.often_servers1>img{
+    width: 72px;
+    height: 72px;
+    margin-left: 30%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    
+}
+#sigin{
+    width: 70px;
+    height: 20px;
+    border: 1px solid rgba(0,0,0, 0.4);
+    margin: 0 auto;
+}
+#sigin:hover{
+    background: blue;
+}
+/* 第一行第二个 */
+.often_servers2{
+    width:18%;
+    border: 1px solid rgba(0,0,0, 0.6);
+    float: left;
+    margin-left: 2%;
+}
+
+.often_servers2>img{
+    width: 72px;
+    height: 72px;
+    margin-left: 30%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    
+}
+#sigin2{
+    width: 110px;
+    height: 20px;
+    border: 1px solid rgba(0,0,0, 0.4);
+    margin: 0 auto;
+}
+#sigin2:hover{
+    background: blue;
+}
+/* ======================== */
+.often_servers3{
+    width:18%;
+    border: 1px solid rgba(0,0,0, 0.6);
+    float: left;
+    margin-left: 2%;
+}
+
+.often_servers3>img{
+    width: 72px;
+    height: 72px;
+    margin-left: 30%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    
+}
+#sigin3{
+    width: 110px;
+    height: 20px;
+    border: 1px solid rgba(0,0,0, 0.4);
+    margin: 0 auto;
+}
+#sigin3:hover{
+    background: blue;
+}
+/* ============================= */
+.often_servers4{
+    width:18%;
+    border: 1px solid rgba(0,0,0, 0.6);
+    float: left;
+    margin-left: 2%;
+}
+
+.often_servers4>img{
+    width: 72px;
+    height: 72px;
+    margin-left: 30%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    
+}
+#sigin4{
+    width: 110px;
+    height: 20px;
+    border: 1px solid rgba(0,0,0, 0.4);
+    margin: 0 auto;
+}
+#sigin4:hover{
+    background: blue;
+}
+/* ================================= */
+.often_servers5{
+    width:18%;
+    border: 1px solid rgba(0,0,0, 0.6);
+    float: left;
+    margin-left: 2%;
+}
+
+.often_servers5>img{
+    width: 72px;
+    height: 72px;
+    margin-left: 30%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    
+}
+#sigin5{
+    width: 110px;
+    height: 20px;
+    border: 1px solid rgba(0,0,0, 0.4);
+    margin: 0 auto;
+}
+#sigin5:hover{
+    background: blue;
+}
+
+/* ================================= */
+.often_servers6{
+    width:18%;
+    border: 1px solid rgba(0,0,0, 0.6);
+    float: left;
+    margin-left: 2%;
+}
+
+.often_servers6>img{
+    width: 72px;
+    height: 72px;
+    margin-left: 30%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    
+}
+#sigin6{
+    width: 110px;
+    height: 20px;
+    border: 1px solid rgba(0,0,0, 0.4);
+    margin: 0 auto;
+}
+#sigin6:hover{
+    background: blue;
+}
+/* =================================================================== */
+
+
+
+
+
+

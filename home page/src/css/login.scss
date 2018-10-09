@@ -1,0 +1,343 @@
+// 头部
+header {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(23, 23, 23, .35);
+    z-index: 1000;
+    .container{
+        height: 100%;
+        padding-right: 10px;
+      padding-left: 10px;
+    }
+    .container a {
+        font-size: 14px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .right {
+        margin-top: 21px;
+        margin-right: -20px;
+        float: right;
+        a{
+            padding-right:15px;
+            font-size: 14px;
+        }
+    }
+
+    .logo {
+        float: left;
+        margin-top: 14px;
+        border: none;
+    }
+}
+// 注册主体
+.main {
+    position: relative;
+    height: 800px;
+    width: 100%;
+}
+.main .brand {
+    height: 100%!important;
+    width: 100%;
+    background: url(../images/bg-1920x1080.png) no-repeat center center #000;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    padding-top: 129px;
+}
+a {
+    text-decoration: none!important;
+    color: #108CEE;
+    &:hover{
+        color: #108CEE;
+    }
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    font-weight: normal;
+    margin: 0;
+}
+h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    opacity: 0.6;
+    margin: 15px 0;
+}
+.reg-form {
+    position: relative;
+    z-index: 2000;
+    width: 875px;
+    font-size: 14px;
+    margin: 0 auto;
+    top: 252px;
+    padding: 45px 20px 20px;
+    background: #fff;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.09);
+    /* border: 2px solid #ebeff7; */
+}
+.reg-form .login-tip {
+    text-align: right;
+    color: #666;
+    width: 417px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.reg-form .san-form {
+    width: 417px;
+    margin: 0 auto;
+}
+.reg-form .san-form-item {
+    margin: 20px 0;
+    position: relative;
+}
+.reg-form input[type="text"], .reg-form input[type="number"],.reg-form input[type="password"] {
+    height: 42px;
+    width: 414px;
+    padding-left: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+.reg-form .submit {
+    width: 416px;
+    height: 42px;
+    color: #fff;
+    background-color: #288aed;
+    border: none;
+    font-size: 16px;
+}
+.reg-form .agreements {
+    text-align: center;
+    font-size: 12px;
+}
+.invalid-label{
+    color: #f52431;
+    font-size: 12px;
+    margin-left: 10px;
+    position: absolute;
+    left: 418px;
+    top: 12px;
+    font-weight: normal;
+    width: 300px;
+}
+.disno{
+    display: none;
+}
+.disinbo{
+    display: inline-block;
+}
+// 登录模块部分
+#root{
+    width: 847px;
+    height: 420px;
+    margin: 0 auto;
+    position: relative;
+    top: 180px;
+    background: #fff;
+    z-index: 10000;
+}
+#loginleft {
+    vertical-align: middle;
+    text-align: center;
+    width: 472px;
+    height: 420px;
+    border-right: 2px solid #ececec;
+    img{
+        display: inline;
+        border: none;
+        width: 410px;
+    }
+}
+#login {
+    width: 373px;
+    height: 420px;
+    position: relative;
+    overflow: hidden;
+}
+.uc-common-login {
+    font: 14px/1.5 "Microsoft YaHei", 微软雅黑, Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+}
+#login .login {
+    margin: 0 auto;
+    box-shadow: none;
+    width: 300px;
+}
+.uc-common-login .login {
+    width: 310px;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    position: relative;
+}
+#change-login {
+    border-bottom: 2px solid #ececec;
+    text-align: center;
+    height: 57px;
+    padding: 0;
+    background-color: #fff;
+    width: 300px;
+    border-bottom: 2px solid #ececec;
+    text-align: center;
+    height: 57px;
+    div{
+        position: static;
+    }
+    //动态
+    .select{
+        border-bottom: 2px solid #108cee;
+    }
+    a{
+        display: inline-block;
+        width: 120px;
+        height: 55px;
+        line-height: 55px;
+        border-right: none;
+        position: relative;
+        bottom: -2px;
+        color: #666;
+    }
+}
+form{
+    padding: 0;
+    background-color: #fff;
+    width: 300px;
+}
+#meslog{
+    display: block;
+    // position: absolute;
+    text-align: right;
+    font-size: 12px;
+    right: 0;
+    width: 100%;
+    margin-top: 5px;
+    // top: 60px;
+}
+#username{
+    height: 40px;
+    width: 300px;
+}
+.uc-common-login .pass-form-item-userName, .uc-common-login .pass-form-item-password {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #bdc7d3;
+    width: 270px;
+    height: 40px;
+    background: #fff;
+    *zoom: 1;
+    margin-bottom: 20px;
+    margin: 0 20px 20px;
+}
+input{
+    padding: 4px 9px;
+    height: 18px;
+    font-size: 12px;
+    height: 40px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+#submit{
+    background: #108cee;
+    border: none;
+    margin-top: 0;
+    height: 34px;
+    font-size: 14px;
+    color: #fff;
+    width: 300px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    // line-height: 35px;
+    cursor: pointer;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
+.rega{
+    position: absolute;
+    right: 0;
+    
+    font-size: 12px;
+
+}
+#rega{
+    margin-right: 65px;
+}
+#subp{
+    height: 72px;
+    border-bottom: 1px solid #ececec;
+}
+#logintwo{
+    margin-top: 30px;
+}
+
+#logintwo-submit{
+    width: 300px;
+    height: 34px;
+    color: #fff;
+    background: #108cee;
+    border: none;
+    font-size: 16px;
+}
+#logintwo-test{
+    width: 160px;
+}
+// 尾部
+footer {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 12px;
+    color: #b8b8b8;
+    display: block;
+}
+footer a {
+    color: #b8b8b8;
+}
+// 媒体查询
+@media(min-width:1200px){
+    .container{
+        width: 980px;
+        padding: 0!important;
+    }
+}
+@media(max-width:875px){
+    #_san_2{
+        width: 100%; 
+        padding-top: 21px;
+        #_san_3{
+            width: 100%;
+        }
+        #_san_7{
+            width: 100%;
+            &>*{
+                width: 100%;
+            }
+        }
+        .reg-form .login-tip {      
+            margin: 0 auto;
+        
+        }
+    }
+    .reg-form input[type="text"], .reg-form input[type="number"], .reg-form input[type="password"]{
+        width: 100%;    
+    }
+    .submit{
+        width: 100%!important;
+    }
+}
+@media(max-width:630px){
+   footer{
+       display: none;
+   }
+}
+

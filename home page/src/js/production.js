@@ -1,0 +1,166 @@
+$('.down').on('click',function(event){
+    event.preventDefault();
+    $('.d_p').toggle();
+    $('.up').toggle();
+    $('.down').toggle();
+});
+$('.up').on('click',function(event){
+    event.preventDefault();
+    $('.d_p').toggle();
+    $('.up').toggle();
+    $('.down').toggle();
+});
+// =======================================================
+$('.down_2').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_2').toggle();
+    $('.up_2').toggle();
+    $('.down_2').toggle();
+});
+$('.up_2').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_2').toggle();
+    $('.up_2').toggle();
+    $('.down_2').toggle();
+});
+// =================================================
+$('.down_3').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_3').toggle();
+    $('.up_3').toggle();
+    $('.down_3').toggle();
+});
+$('.up_3').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_3').toggle();
+    $('.up_3').toggle();
+    $('.down_3').toggle();
+});
+// ====================================
+$('.down_4').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_4').toggle();
+    $('.up_4').toggle();
+    $('.down_4').toggle();
+});
+$('.up_4').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_4').toggle();
+    $('.up_4').toggle();
+    $('.down_4').toggle();
+});
+// ================================================
+$('.down_5').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_5').toggle();
+    $('.up_5').toggle();
+    $('.down_5').toggle();
+});
+$('.up_5').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_5').toggle();
+    $('.up_5').toggle();
+    $('.down_5').toggle();
+});
+// ===================第二栏===============================
+$('.down_s4').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_s4').toggle();
+    $('.up_s4').toggle();
+    $('.down_s4').toggle();
+});
+$('.up_s4').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_s4').toggle();
+    $('.up_s4').toggle();
+    $('.down_s4').toggle();
+});
+$('.down_s5').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_s5').toggle();
+    $('.up_s5').toggle();
+    $('.down_s5').toggle();
+});
+$('.up_s5').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_s5').toggle();
+    $('.up_s5').toggle();
+    $('.down_s5').toggle();
+});
+$('.down_s6').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_s6').toggle();
+    $('.up_s6').toggle();
+    $('.down_s6').toggle();
+});
+$('.up_s6').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_s6').toggle();
+    $('.up_s6').toggle();
+    $('.down_s6').toggle();
+});
+// ========================第三栏============================
+$('.down_t').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_t').toggle();
+    $('.up_t').toggle();
+    $('.down_t').toggle();
+});
+$('.up_t').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_t').toggle();
+    $('.up_t').toggle();
+    $('.down_t').toggle();
+});
+
+$('.down_t2').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_t2').toggle();
+    $('.up_t2').toggle();
+    $('.down_t2').toggle();
+});
+$('.up_t2').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_t2').toggle();
+    $('.up_t2').toggle();
+    $('.down_t2').toggle();
+});
+
+$('.down_t3').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_t3').toggle();
+    $('.up_t3').toggle();
+    $('.down_t3').toggle();
+});
+$('.up_t3').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_t3').toggle();
+    $('.up_t3').toggle();
+    $('.down_t3').toggle();
+});
+
+$('.down_t4').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_t4').toggle();
+    $('.up_t4').toggle();
+    $('.down_t4').toggle();
+});
+$('.up_t4').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_t4').toggle();
+    $('.up_t4').toggle();
+    $('.down_t4').toggle();
+});
+
+$('.down_t5').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_t5').toggle();
+    $('.up_t5').toggle();
+    $('.down_t5').toggle();
+});
+$('.up_t5').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_t5').toggle();
+    $('.up_t5').toggle();
+    $('.down_t5').toggle();
+});
