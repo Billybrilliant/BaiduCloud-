@@ -1,1 +1,1 @@
-$('#nav').load('../../../nav/src/html/index.html');
+$('#nav').load('../html/nav.html');

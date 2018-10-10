@@ -2,6 +2,28 @@
     box-sizing: border-box;
 }
 
+.nav_top {
+    background: black!important;
+    position: fixed;
+    width: 100%;
+    z-index: 100000000000;
+}
+
+@media (min-width: 1170px) {
+    .main {
+        width: 100%;
+    }
+}
+
+@media (max-width: 780px) {
+    .main {
+        width: 1280px;
+    }
+    footer {
+        width: 1280px;
+    }
+}
+
 .banner {
     background-image: url("../images/ecology-banner.png");
     background-repeat: no-repeat;
@@ -13,13 +35,6 @@
 .banner a:nth-child(1) {
     background-color: #108cee;
 }
-
-.main {
-    width: 1280px;
-}
-
-
-/* @media (min-width: 1170px) {} */
 
 .banner {
     height: 382px;
