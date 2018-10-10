@@ -89,6 +89,32 @@ ul>li>a>span{
     text-align: center;
     color: #333;
 }
+
+
+/* ====================== */
+@media (min-width: 1360px) {
+    .server,.money_about,.user_pretend,.often_proplem,.self_help{
+        width: 100%;
+    }
+  
+    .containner{
+        width: 100%!important; 
+    }
+
+ }
+
+ @media (max-width: 1200px) {
+    .server,.money_about,.user_pretend,.often_proplem,.self_help{
+        width: 1360px!important;
+    }
+ 
+    .containner{
+        width: 1360px!important; 
+    }
+
+ }
+
+
 /* =========================常用服务============================== */
 .server>div>h2{
     margin-bottom: 50px;
@@ -97,10 +123,10 @@ ul>li>a>span{
 }
 
 .often_servers1{
-    width:18%;
+    width:22%;
     border: 1px solid rgba(0,0,0, 0.6);
     float: left;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 
 .often_servers1>img{
@@ -122,10 +148,10 @@ ul>li>a>span{
 }
 /* 第一行第二个 */
 .often_servers2{
-    width:18%;
+    width:22%;
     border: 1px solid rgba(0,0,0, 0.6);
     float: left;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 
 .often_servers2>img{
@@ -147,10 +173,10 @@ ul>li>a>span{
 }
 /* ======================== */
 .often_servers3{
-    width:18%;
+    width:22%;
     border: 1px solid rgba(0,0,0, 0.6);
     float: left;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 
 .often_servers3>img{
@@ -172,10 +198,10 @@ ul>li>a>span{
 }
 /* ============================= */
 .often_servers4{
-    width:18%;
+    width:22%;
     border: 1px solid rgba(0,0,0, 0.6);
     float: left;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 
 .often_servers4>img{
@@ -195,38 +221,14 @@ ul>li>a>span{
 #sigin4:hover{
     background: blue;
 }
-/* ================================= */
-.often_servers5{
-    width:18%;
-    border: 1px solid rgba(0,0,0, 0.6);
-    float: left;
-    margin-left: 2%;
-}
 
-.often_servers5>img{
-    width: 72px;
-    height: 72px;
-    margin-left: 30%;
-    margin-top: 20%;
-    margin-bottom: 10%;
-    
-}
-#sigin5{
-    width: 110px;
-    height: 20px;
-    border: 1px solid rgba(0,0,0, 0.4);
-    margin: 0 auto;
-}
-#sigin5:hover{
-    background: blue;
-}
 
 /* ================================= */
 .often_servers6{
-    width:18%;
+    width:22%;
     border: 1px solid rgba(0,0,0, 0.6);
     float: left;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 
 .often_servers6>img{
@@ -246,10 +248,164 @@ ul>li>a>span{
 #sigin6:hover{
     background: blue;
 }
-/* =================================================================== */
+/* ================================= */
+.often_servers7{
+    width:22%;
+    border: 1px solid rgba(0,0,0, 0.6);
+    float: left;
+    margin-left: 3%;
+}
+
+.often_servers7>img{
+    width: 72px;
+    height: 72px;
+    margin-left: 30%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    
+}
+#sigin7{
+    width: 110px;
+    height: 20px;
+    border: 1px solid rgba(0,0,0, 0.4);
+    margin: 0 auto;
+}
+#sigin7:hover{
+    background: blue;
+}
+/* ============================-财务相关-======================================= */
+.money_about{
+    background: rgba(0,0,0, 0.1);
+}
+
+#ground{
+    width: 80%;
+    height: 200px;
+    background: #F5F5F5;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#ground>div>img{
+    width: 72px;
+    height: 72px;
+    display: block;
+    margin: 0 auto;
+}
+/* ===== */
+.group1{
+    width: 20%;
+    margin-top: 30px;
+    float: left;
+    border-right: 1px solid rgba(0,0,0, 0.1);
+}
+
+.group2{
+    width: 20%;
+    margin-top: 30px;
+    float: left;
+    border-right: 1px solid rgba(0,0,0, 0.1);
+}
+
+.group3{
+    width: 20%;
+    margin-top: 30px;
+    float: left;
+    border-right: 1px solid rgba(0,0,0, 0.1);
+}
+
+.group4{
+    width: 20%;
+    margin-top: 30px;
+    float: left;
+    border-right: 1px solid rgba(0,0,0, 0.1);
+}
+
+.group5{
+    width: 20%;
+    margin-top: 30px;
+    float: left;
+    
+}
+
+/* ===============================账号备案================================== */
+#ground_pretend{
+    width: 80%;
+    height: 180px;
+    margin: 0 auto;
+    margin-bottom: 50px; 
+}
+
+
+.user_pretend>div>#ground_pretend>div>img{
+    width: 32px;
+    height: 32px;
+    margin: 0;
+}
+.user_pretend>div>#ground_pretend>div>span{
+    font-size: 18px;
+    color: rgba(0,0,0,0.85);
+    margin-left: 10%;
+}
 
 
 
+/* ===== */
+.g_p1{
+    width: 30%;
+    float: left;
+    border: 1px solid rgba(0,0,0, 0.1);
+}
+
+.g_p2{
+    width: 30%;
+    margin-left: 4.5%;
+    float: left;
+    border: 1px solid rgba(0,0,0, 0.1);
+}
+
+.g_p3{
+    width: 30%;
+    margin-left: 4.5%;
+    float: left;
+    border: 1px solid rgba(0,0,0, 0.1);
+}
 
 
+/* ================================常见问题======================================= */
+.often_proplem{
+    background: rgba(0,0,0, 0.1);
+}
 
+.problem1,.problem2,.problem3,.problem4{
+    width: 22%;
+    float: left;
+    margin-left: 3%;
+}
+.often_proplem>div>div>div>ul>li>a{
+    color: #999;
+}
+.often_proplem>div>div>div>ul>li{
+    margin-top: 15px;
+}
+
+
+/* ==============================自助工具=================================== */
+
+#ground_self{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+#ground_self>div>img{
+    width: 32px;
+    height: 32px;
+    display: block;
+
+}
+
+.self_help1,.self_help2,.self_help3,.self_help4{
+    width: 22%;
+    float: left;
+    margin-left: 3%;
+}
