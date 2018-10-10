@@ -112,7 +112,9 @@ h3 {
   position: relative;
 }
 
-.reg-form input[type="text"], .reg-form input[type="number"], .reg-form input[type="password"] {
+.reg-form input[type="text"],
+.reg-form input[type="number"],
+.reg-form input[type="password"] {
   height: 42px;
   width: 414px;
   padding-left: 10px;
@@ -254,7 +256,8 @@ form {
   width: 300px;
 }
 
-.uc-common-login .pass-form-item-userName, .uc-common-login .pass-form-item-password {
+.uc-common-login .pass-form-item-userName,
+.uc-common-login .pass-form-item-password {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -275,6 +278,7 @@ input {
   height: 40px;
   width: 300px;
   margin-bottom: 20px;
+  border: 1px solid #bdc7d3;
 }
 
 #submit {
@@ -305,24 +309,125 @@ input {
 
 #subp {
   height: 72px;
-  border-bottom: 1px solid #ececec;
 }
 
 #logintwo {
   margin-top: 30px;
 }
 
-#logintwo-submit {
+#logintwo_submit {
   width: 300px;
   height: 34px;
   color: #fff;
   background: #108cee;
   border: none;
   font-size: 16px;
+  margin-bottom: 5px;
 }
 
-#logintwo-test {
+#logintwo_test {
+  width: 158px;
+}
+
+#checkCode {
+  width: 74px;
+  height: 40px;
+  position: absolute;
+  left: 170px;
+  cursor: default;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 40px;
+  user-select: none;
+  font-family: "华文隶书";
+}
+
+#changeCode {
+  position: absolute;
+  font-size: 12px;
+  left: 255px;
+  margin-top: 5px;
+}
+
+.other {
+  font-size: 12px;
+  color: #9dbcdb;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+#baiduicon {
+  display: inline-block;
+  width: 15px;
+  height: 17px;
+  background: url(../images/icons.png) no-repeat -203px -75px;
+  margin: 3px 4px 0 0;
+  position: absolute;
+}
+
+#safe {
+  position: absolute;
+  left: 22px;
+}
+
+.tip-wrap {
+  margin-top: 30px;
+}
+
+.tip-wrap p {
+  border-top: 1px solid #ececec;
+  padding-top: 10px;
+  font-size: 12px;
+  color: #333;
+  line-height: 20px;
+  font-family: Arial, "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#tipone {
+  position: absolute;
+  top: 250px;
+}
+
+#erweima {
+  margin: 15px 0 0 25px;
+  text-align: center;
+}
+
+#erweima > img {
   width: 160px;
+  height: 160px;
+}
+
+#erweima > p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+#rightcode {
+  top: 375px;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  right: 0;
+  bottom: -15px;
+  cursor: pointer;
+  background: url(../images/pass_login_icons_7c6e14d.png) no-repeat 0 0;
+  z-index: 21;
+}
+
+.erweimacode {
+  background-position: -44px -86px !important;
+}
+
+.pc {
+  background-position: 0 -86px !important;
 }
 
 footer {
@@ -361,7 +466,9 @@ footer a {
   #_san_2 .reg-form .login-tip {
     margin: 0 auto;
   }
-  .reg-form input[type="text"], .reg-form input[type="number"], .reg-form input[type="password"] {
+  .reg-form input[type="text"],
+  .reg-form input[type="number"],
+  .reg-form input[type="password"] {
     width: 100%;
   }
   .submit {
@@ -372,5 +479,20 @@ footer a {
 @media (max-width: 630px) {
   footer {
     display: none;
+  }
+  #loginleft {
+    display: none;
+  }
+  #root {
+    width: 100%;
+  }
+  #brand {
+    width: 100% !important;
+  }
+  .main {
+    width: 100%;
+  }
+  .brand {
+    width: 100%;
   }
 }
