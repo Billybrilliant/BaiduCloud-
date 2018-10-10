@@ -24,10 +24,10 @@ $result=mysqli_query($conn,$sql);
 
 // 4.根据执行结果给出响应
     if($result==true){ //函数返回值
-        echo "注册成功";
-        echo '<a href="../html/login.html">立即登录</a>';
+        echo "<span  style="font-size:40px;color:red;">注册成功</span>";
+        echo '<a href="../html/login.html" style="font-size:40px;color:red;">立即登录</a>';
     }else{
-        echo "注册失败";
-        echo '<a href="../html/reg.html">重新注册</a>';
+        echo "<span  style="font-size:40px;color:red;">注册失败</span>";
+        echo '<a href="../html/reg.html" style="font-size:40px;color:red;">重新注册</a>';
     };
 ?>

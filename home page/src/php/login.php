@@ -22,9 +22,11 @@ $result=mysqli_query($conn,$sql);
 
 // 4.根据执行结果给出响应
     if($result->fetch_row()[0]){ //函数返回值
-        echo "登录成功";
+        echo '<span style="font-size:40px;color:blue;">登录成功</span>';
+        echo '<a href="../html/home-page.html" style="font-size:40px; color:red;">回到首页</a>';
     }else{
-        echo "登录失败";
+        echo '<span  style="font-size:40px;color:red;">登录失败</span>';
+        echo '<a href="../html/login.html"  style="font-size:40px;">重新登录</a>';
     };
-    // echo $result->fetch_row()[0];  //输出的为ID
+    // echo $result->fetch_row()[0];  //输出的为ID值
 ?>
