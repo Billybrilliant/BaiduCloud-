@@ -1,18 +1,28 @@
-@media (min-width: 1170px) {}
+@media (min-width: 1170px) {
+    .big {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    footer {
+        width: 100%;
+    }
+}
 
-.big {
-    width: 1280px;
-    margin: 0;
-    padding: 0;
+@media (max-width: 780px) {
+    .big {
+        width: 1280px;
+        margin: 0;
+        padding: 0;
+    }
+    footer {
+        width: 1280px;
+    }
 }
 
 * {
     margin: 0;
     padding: 0;
-}
-
-footer {
-    width: 1280px;
 }
 
 a {
