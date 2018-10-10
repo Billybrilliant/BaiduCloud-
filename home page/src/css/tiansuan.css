@@ -14,6 +14,7 @@
     height: 550px;  
     background: black;
     position: relative;
+    overflow: hidden;
 }
 .bcg{
     width: 100%;

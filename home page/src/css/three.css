@@ -11,7 +11,7 @@
 
 .head{
     /* width:100%; */
-    min-width: 1536px;
+    min-width: 1519px;
 
   height: 480px;
 }
@@ -42,7 +42,7 @@
 }
     /* 背景图的下面那列 */
 .king1{
-    min-width: 1536px;
+    min-width: 1519px;
     /* width:100%; */
     height: 110px;
     background: rgba(0,0,0,0.3);
@@ -95,11 +95,11 @@
 }
 /* 轻松上云那块 */
 .king2{
-    min-width: 1536px;  
+    min-width: 1519px;  
     height: 645px;
 }
 .content{
-    min-width: 1536px;
+    min-width: 1519px;
     overflow: hidden;
 }
 .content h2{
@@ -205,7 +205,7 @@
    
 }
 .king3{
-    min-width: 1536px;
+    min-width: 1519px;
     background-color: #F5F5F5;
     overflow: hidden;
     padding-bottom: 90px;
@@ -320,7 +320,7 @@
     margin-right: 24px;
 }
 .boy{
-    min-width: 1536px;
+    min-width: 1519px;
 }
 .boy a{
     font-size: 14px;
@@ -341,7 +341,7 @@
     color: rgba(0,0,0,0.85);
 }
 .king4{
-    min-width: 1536px;
+    min-width: 1519px;
 }
 .king4 h2{
     font-size: 30px;
@@ -481,7 +481,7 @@
     margin-right: 20px;
 }
 .finally{
-    width: 1536px;
+    width: 1519px;
     height: 240px;
     margin-top: 80px;
     background-image: url("../images/la.jpg");
