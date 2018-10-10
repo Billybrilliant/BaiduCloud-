@@ -337,12 +337,12 @@ ul>li>a>span{
 }
 
 
-.user_pretend>div>#ground_pretend>div>img{
+.user_pretend>div>#ground_pretend>div>div>img{
     width: 32px;
     height: 32px;
-    margin: 0;
+    margin-left: 10%;
 }
-.user_pretend>div>#ground_pretend>div>span{
+.user_pretend>div>#ground_pretend>div>div>span{
     font-size: 18px;
     color: rgba(0,0,0,0.85);
     margin-left: 10%;
@@ -351,10 +351,18 @@ ul>li>a>span{
 
 
 /* ===== */
+#ground_pretend>div>p{
+    margin-left: 34%;
+}
+.jvli,.jvli1,.jvli2{
+    margin-top: 5%;
+}
+
 .g_p1{
     width: 30%;
     float: left;
     border: 1px solid rgba(0,0,0, 0.1);
+    overflow: hidden;
 }
 
 .g_p2{
@@ -363,6 +371,7 @@ ul>li>a>span{
     float: left;
     border: 1px solid rgba(0,0,0, 0.1);
 }
+
 
 .g_p3{
     width: 30%;
@@ -393,7 +402,7 @@ ul>li>a>span{
 /* ==============================自助工具=================================== */
 
 #ground_self{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 80px;
 }
@@ -408,4 +417,26 @@ ul>li>a>span{
     width: 22%;
     float: left;
     margin-left: 3%;
+   
+}
+.self_help1:hover{
+    background: rgba(0,0,0, 0.1);
+}
+.self_help2:hover{
+    background: rgba(0,0,0, 0.1);
+}
+.self_help3:hover{
+    background: rgba(0,0,0, 0.1);
+}
+.self_help4:hover{
+    background: rgba(0,0,0, 0.1);
+}
+#ground_self>div>h3{
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+#ground_self>div>p{
+    font-size: 14px;
+    color: #999;
 }

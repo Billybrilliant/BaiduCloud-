@@ -141,7 +141,7 @@ p{
     height: 120px;
 }
 .media>div>a>img{
-    height: 80px;
+    height: 60px!important;
     margin-left: 10%;
 }
 .media>div>h3{
