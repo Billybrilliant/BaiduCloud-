@@ -55,12 +55,13 @@
                                     <!-- 登录部分 -->
                                     <div id="passport-login" class="tang-pass-login" style="display: block; visibility: visible; opacity: 1;">
                                         <!-- 默认状态显示表单 -->
-                                        <form action="" id="loginone" class="pass-form pass-form-normal" method="POST"
+                                        <form  id="loginone" class="pass-form pass-form-normal" method="POST"
                                             autocomplete="on" style="display:block;">
                                             <p id="meslog"><a href="javascript:void(0);">短信快捷登录</a></p>
+                                            <span id="loginerror"></span>
                                             <input type="text" id="uname" name="uname" class="pass-text-input pass-text-input-userName"
                                                 placeholder="手机/邮箱/用户名">
-                                            <input type="text" id="upwd" name="upwd" class="pass-text-input pass-text-input-userName"
+                                            <input type="password" id="upwd" name="upwd" class="pass-text-input pass-text-input-userName"
                                                 placeholder="密码">
                                             <p id="subp">
                                                 <input type="submit" id="submit" type="submit" value="登录">
@@ -81,7 +82,7 @@
                                             <div class="login-info">
                                                 <input type="text" id="logintwo-uname" name="logintwo-uname"
                                                     placeholder="用户名" maxlength="32">
-                                                <input type="text" id="logintwo_upwd" name="logintwo_upwd" placeholder="密码"
+                                                <input type="password" id="logintwo_upwd" name="logintwo_upwd" placeholder="密码"
                                                     maxlength="32">
                                                 <input type="text" id="logintwo_test" name="logintwo_test" placeholder="验证码"
                                                     maxlength="4">
@@ -101,17 +102,17 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                </div>
-                                        <!-- 温馨提示 -->
-                                        <div class="tip-wrap">
-                                            <p class="uc-tip">
-                                                <strong>温馨提示</strong>
-                                                <br />
-                                                使用百度推广帐号或新注册的云帐号可直接登录。
-                                            </p>
-                                        </div>
+                                            </div>
+                                            <!-- 温馨提示 -->
+                                            <div class="tip-wrap">
+                                                <p class="uc-tip">
+                                                    <strong>温馨提示</strong>
+                                                    <br />
+                                                    使用百度推广帐号或新注册的云帐号可直接登录。
+                                                </p>
+                                            </div>
                                         </form>
-                                        
+
                                         <!-- 二维码 -->
                                         <div id="erweima" style="display: none; visibility: visible; opacity: 1;">
                                             <img src="../images/qrcode.png" alt="">
@@ -135,7 +136,7 @@
     </div>
     </div>
     <!-- 尾部 -->
-    <footer>
+    <footer class="footer">
         © 2018 Baidu <a href="http://www.baidu.com/duty/" target="_blank">使用百度前必读</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://cloud.baidu.com/qualification/isp.html"
             target="_blank">增值电信业务经营许可证：B1.B2-20100266</a>&nbsp;&nbsp;&nbsp;&nbsp;京ICP证030173号&nbsp;&nbsp;&nbsp;&nbsp;<a
             target="blank" href="https://cloud.baidu.com/doc/UserGuide/User_Service_Agreement.html#.E9.9A.90.E7.A7.81.E6.94.BF.E7.AD.96">隐私政策</a>

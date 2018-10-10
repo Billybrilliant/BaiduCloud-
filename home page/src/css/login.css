@@ -430,6 +430,11 @@ input {
   background-position: 0 -86px !important;
 }
 
+#loginerror {
+  color: #f28281;
+  font-size: 12px;
+}
+
 footer {
   text-align: center;
   padding: 50px 0;
@@ -477,7 +482,7 @@ footer a {
 }
 
 @media (max-width: 630px) {
-  footer {
+  .footer {
     display: none;
   }
   #loginleft {
