@@ -6,25 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>云市场</title>
-    <link href="../../../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <!-- <link rel="stylesheet" href="css/bace.css"> -->
+    <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="../css/yushichang.css">
-    <link rel="stylesheet" href="../iconfond/font_ubzwxc7jea/iconfont.css">
-    <link rel="stylesheet" href="../iconfond/font_mn6e4i303x/iconfont.css">
-    <link rel="stylesheet" href="../../../nav/src/css/index.css">
-    <link rel="stylesheet" href="../../../nav/src/iconfont/font_y601kvhhyml/iconfont.css">
-    <script src="../../../bower_components/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="../iconfont/font_ubzwxc7jea/iconfont.css">
+    <link rel="stylesheet" href="../iconfont/font_mn6e4i303x/iconfont.css">
 
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../iconfont/font_y601kvhhyml/iconfont.css">
+    <script src="../js/nav.js"></script>
 </head>
 
 <body>
-    <div id="nav" style="background:black"></div>
-
+    <div id="nav" class="hidden-xs hidden-sm"></div>
 
 
     <div class="row hidden-xs hidden-sm">
@@ -84,7 +83,7 @@
                         </div>
                         <div class="col-lg-9">
                             <div class="input-group">
-                                <input type="text" placeholder="在此输入你需要的服务...">
+                                <input id="search" type="text" placeholder="在此输入你需要的服务...">
                                 <span class="input-group-btn">
                                   <button class="btn btn-default" type="button">搜索</button>
                                 </span>
@@ -439,7 +438,7 @@
                                             </div>
                                             <p style="position:absolute;right: 0;top: -20px; color: #fff; ">热门</p>
                                             <a href=" "><img src="../images/act6.jpg " alt=" "></a>
-                                            <p><a href=" ">ecshop(BCH主机模板)</a> </p>
+                                            <p><a href=" ">ecshop(BCH主机模板)自助建站系统</a> </p>
                                             <p>B2C独立网店系统</p>
                                             <p>0元/年</p>
                                             <p><a href=" ">立即购买</a></p>
@@ -510,7 +509,7 @@
                                             </div>
                                             <p style="position:absolute;right: 0;top: -20px; color: #fff; ">热门</p>
                                             <a href=" "><img src="../images/act11.jpg " alt=" "></a>
-                                            <p><a href=" ">DiscuzX论坛系统Apache版</a> </p>
+                                            <p><a href=" ">DiscuzX论坛系统（Apache版）</a> </p>
                                             <p>DiscuzX3.3论坛系统镜像</p>
                                             <p>0元/年</p>
                                             <p><a href=" ">立即购买</a></p>
@@ -523,7 +522,7 @@
                                             <p style="position:absolute;right: 0;top: -20px; color: #fff; ">热门</p>
                                             <a href=" "><img src="../images/act12.png " alt=" "></a>
                                             <p><a href=" ">新网互联迅邮（百度版）</a> </p>
-                                            <p>针对高端企业用户的商务邮局</p>
+                                            <p>针对高端企业消费用户的商务邮局</p>
                                             <p>480元/年</p>
                                             <p><a href=" ">立即购买</a></p>
                                             <p class="db"><a href=" ">参加0元促销活动政策</a> </p>
@@ -542,7 +541,7 @@
                                         </li>
                                         <li>
                                             <a href=" "><img src="../images/act14.jpg " alt=" "></a>
-                                            <p><a href=" ">站叔叔云企业官方官网百度版</a> </p>
+                                            <p><a href=" ">站叔叔百度云企业官方官网百度版</a> </p>
                                             <p>云计算智能建站平台</p>
                                             <p>850元/3年</p>
                                             <p><a href=" ">立即购买</a></p>
@@ -593,7 +592,7 @@
                                             </div>
                                             <p style="position:absolute;right: 0;top: -20px; color: #fff; ">热门</p>
                                             <a href=" "><img src="../images/act17.png " alt=" "></a>
-                                            <p><a href=" ">PHP5_6 运行环境（LNMP）</a> </p>
+                                            <p><a href=" ">PHP5_6 运行系统环境（LNMP）</a> </p>
                                             <p>专业的云镜像部署和服务</p>
                                             <p>0元/年</p>
                                             <p><a href=" ">立即购买</a></p>
@@ -605,7 +604,7 @@
                                             </div>
                                             <p style="position:absolute;right: 0;top: -20px; color: #fff; ">热门</p>
                                             <a href=" "><img src="../images/act18.jpg " alt=" "></a>
-                                            <p><a href=" ">程序漏洞修复木马清除(A5)</a> </p>
+                                            <p><a href=" ">程序出现漏洞修复木马清除(A5)</a> </p>
                                             <p>保障网站正常运行</p>
                                             <p>500元/次</p>
                                             <p><a href=" ">立即购买</a></p>
@@ -614,7 +613,7 @@
                                         <li>
                                             <a href=" "><img src="../images/act19.jpg " alt=" "></a>
                                             <p><a href=" ">258商务卫士</a> </p>
-                                            <p>企业互联网一站式解决方案</p>
+                                            <p>企业互联网一站式最好解决方案</p>
                                             <p>9988元/年</p>
                                             <p><a href=" ">立即购买</a></p>
                                             <p class="db"><a href=" ">参加0元促销活动政策</a> </p>
@@ -653,7 +652,7 @@
                                             <p style="position:absolute;right: 0;top: -20px; color: #fff; ">热门</p>
                                             <a href=" "><img src="../images/act21.jpg " alt=" "></a>
                                             <p><a href=" ">硬盘数据恢复救援</a> </p>
-                                            <p>可用于无镜像无备份硬盘损坏等</p>
+                                            <p>可使用于无镜像无备份硬盘损坏等</p>
                                             <p>3000元/次</p>
                                             <p><a href=" ">立即购买</a></p>
                                             <p class="db"><a href=" ">参加0元促销活动政策</a> </p>
@@ -685,7 +684,7 @@
                                         <li>
                                             <a href=" "><img src="../images/act24.jpg " alt=" "></a>
                                             <p><a href=" ">网站伪静态设置</a> </p>
-                                            <p>针对通用程序设置伪静态</p>
+                                            <p>网站针对通用程序设置伪静态</p>
                                             <p>30元/次</p>
                                             <p><a href=" ">立即购买</a></p>
                                             <p class="db"><a href=" ">参加0元促销活动政策</a> </p>
@@ -724,7 +723,7 @@
                                             <p style="position:absolute;right: 0;top: -20px; color: #fff; ">热门</p>
                                             <a href=" "><img src="../images/act26.png " alt=" "></a>
                                             <p><a href=" ">云堡垒机_云匣子（50资产）</a> </p>
-                                            <p>手机运维，保障企业运维安全</p>
+                                            <p>手机运行维护，保障企业运维安全</p>
                                             <p>180元/月</p>
                                             <p><a href=" ">立即购买</a></p>
                                             <p class="db"><a href=" ">参加0元促销活动政策</a> </p>
@@ -876,14 +875,14 @@
     <div class="container hidden-lg">
         <div class="container-fluid">
             <div class="row top">
-                <div class="row" style="background:black">
-                    <div class="col-xs-6 pull-left">
-                        <a href=""><img src="../images/logo1.png" alt="" class="img-responsive" style="width: 60px;height: 30px;margin-left: 30px;"></a>
-                    </div>
+                <div class="row" style="background:black;width: 100%;position: relative;">
 
-                    <div class="col-xs-6 pull-right">
-                        <a href=""><img src="../images/logo.png" alt="" class="img-responsive"></a>
-                    </div>
+                    <a href=""></a>
+                    <!-- <img src="../images/yungo.png" alt="" class="img-responsive" style="width: 60px;height: 30px;margin-left: 30px;">
+<img src="../images/logo.png" alt="" class="img-responsive"> -->
+
+                    <a href=""></a>
+
                 </div>
             </div>
         </div>
@@ -1228,17 +1227,17 @@
     </div>
 
 
-    <button id="test" style="position:fixed;right:0;bottom:0">回到顶部</button>
+    <!-- <button id="test" style="position:fixed;right:0;bottom:0">回到顶部</button>
     <script>
         test.onclick = function() {
             document.body.scrollTop = document.documentElement.scrollTop = 0;
         }
-    </script>
+    </script> -->
 
 
 
-    <script src="../../../bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="../../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 <!-- <script>
     window.onload = function() {
@@ -1269,7 +1268,29 @@
     })
 </script>
 <script>
+    window.onload = function() {
+        var input = document.getElementById('search');
+        var bt = document.querySelector('.btn');
+        // var wd = "";
+        // input.onkeyup = function() {
+        //     var url = "https://cloud.baidu.com/api/market/web/list/0/products?keyword=";
+        //     wd = this.value;
+        //     url += wd + "&cb=showvalue";
+        //     var script = document.createElement('script');
+        //     script.src = url;
+        //     document.body.appendChild(script);
+        //     bt.innerHTML = '';
+        // }
+        bt.onclick = function(event) {
+            location.href = "https://cloud.baidu.com/market/list/0?keyword=" + input.value;
+        }
+        bt.onmouseover = function() {
+            bt.style = "background:#008af1;color:#fff";
+
+        }
+    }
 </script>
+
 <script src="../js/yunshichang.js"></script>
 
 </html>
