@@ -1,3 +1,5 @@
+$("#feeds").load("feeds.html");
+
 $('.down').on('click',function(event){
     event.preventDefault();
     $('.d_p').toggle();

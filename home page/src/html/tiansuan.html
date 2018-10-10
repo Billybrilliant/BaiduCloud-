@@ -6,9 +6,12 @@
 <link rel="icon" type="image/x-icon" href="https://bce.bdstatic.com/portal/img/fi_aa997970.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>天算-大数据分析-大数据解决方案-百度云</title>
+<link rel="stylesheet" href="../css/nav.css">
 <link rel="stylesheet" href="../css/tiansuan.css">
-<link href="../../../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="../css/font_hgmpu0capiq/iconfont.css">
+<link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+<!-- <link href="../../../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" href="../iconfont/font_hgmpu0capiq/iconfont.css">
+
 
 <!--[if lt IE 9]>
 <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -16,6 +19,7 @@
 <![endif]-->
 </head>
 <body>
+        <div id="nav"></div>
         <div class="main">
                 <div class="bg-layer1"></div>
                 <div class="bg-layer2"></div>
@@ -409,10 +413,15 @@
         
         
         
-        
-        <script src="../../../bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="../../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- <script src="../../../bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="../../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script> -->
     
         <script src="../js/tiansuan.js"></script>
+        <script src="../js/nav.js"></script>
+        <script>
+                $('#nav').load('../html/nav.html')
+        </script>
 </body>
 </html>
