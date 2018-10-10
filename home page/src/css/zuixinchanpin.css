@@ -1,0 +1,86 @@
+@charset "uft-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+.changing{
+    min-width: 1550px;
+    height: 480px;
+}
+.changing_one{
+    display: block;
+    width: 1550px;
+    height: 480px;
+    /* background-image: url('../images/zj1.png'); */
+    background-repeat: no-repeat;
+    background-position: -180px 0;
+    position: absolute;
+    background-color: black;
+}
+.aa{
+    z-index: 2!important;
+}
+ .changing_one img{
+ 
+    position: absolute;
+    /* top: 34px; */
+    top: 76px;
+    /* left: -156px; */
+    opacity: 0;
+    
+     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+} 
+.changing .aa img{
+        animation: move  1s forwards; 
+}
+@keyframes move {
+    from{
+        top: 76px;
+        left: -156px;
+        opacity: .3;
+    }
+    to{
+        top: 34px;
+        left: -156px;
+        opacity: 1;
+    }
+}
+/* .ul1{
+    width: 1180px;
+    height: 40px;
+    overflow: hidden;
+    position: absolute;
+    top: 440px;
+    background-color: black;
+    z-index: 1000;
+    left: 100px;
+}
+.ul1 li a{
+    color: white;
+} */
+.tab_top{
+    min-width: 1550px;
+    height: 60px;
+    background-color: #2D2E30;
+
+}
+.ul2{
+    width: 1180px;
+    height: 60px;
+    margin: 0 auto;
+    list-style-type:none;
+    overflow: hidden;
+}
+.ul2 li{
+    float: left;
+    width: 236px;
+    height: 60px;
+    text-align: center;
+}
+.ul2 li a{
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 60px;
+}
+
