@@ -1,1 +1,1 @@
-$('#nav').load("../../../nav/src/html/index.html"); //导入导航
+$('#nav').load("../html/nav.html"); //导入导航
