@@ -29,7 +29,6 @@ $(function() {
     }, function() {
         $(this).children('i').removeClass('change2')
     })
-
     var storage = localStorage.getItem('uname')
     $('#uname').html(storage)
     if (storage) {
@@ -41,6 +40,7 @@ $(function() {
         $('#login').html('登录')
         $('.sign_in').html('注册')
         $('#uname').empty()
+        localStorage.removeItem('uname')
     })
 
 })
