@@ -4,10 +4,11 @@
     padding: 0;
 }
 #nav{
-    width: 100%;
+    width: 1519px;
     position: absolute;
     top: 0;
     z-index:1000;
+   
 }
 .main{
     min-width: 1519px;
@@ -742,4 +743,8 @@ em{
  }
  .center_one:hover .tit2{
     transform: scale(1.2);
+ }
+ #footer{
+    background: #232526;
+    width: 1519px;
  }
