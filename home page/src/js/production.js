@@ -1,4 +1,4 @@
-$("#feeds").load("feeds.html");
+
 
 $('.down').on('click',function(event){
     event.preventDefault();
@@ -166,3 +166,4 @@ $('.up_t5').on('click',function(event){
     $('.up_t5').toggle();
     $('.down_t5').toggle();
 });
+

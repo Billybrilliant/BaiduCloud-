@@ -8,6 +8,10 @@
     <title>产品文档</title>
     <link href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/production.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../iconfont/font_y601kvhhyml/iconfont.css">
+    
+
     <!--[if lt IE 9]>
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -15,6 +19,7 @@
 </head>
 
 <body>
+    <div id="nav" style="width: 100%;position:fixed;top: 0;z-index: 100; background: black;"></div>
     <div id="sousuo">
         <div id="help_sousuo">
             <div class="row">
@@ -36,8 +41,8 @@
         </div>
     </div>
     <!--  -->
-    <div class="nav">
-        <div class="nav_list">
+    <div class="dao_nav">
+        <div class="dao_list">
             <ul>
                 <li style="background: #FFF">
                     <a href="production.html">
@@ -311,7 +316,13 @@
 
     <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/nav.js"></script>
     <script src="../js/production.js"></script>
+    <script>
+        $('#nav').load('../html/nav.html');
+    </script>
+
+  
 </body>
 
 </html>
