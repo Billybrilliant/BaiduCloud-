@@ -4,6 +4,9 @@ a{
     text-decoration: none;
     color: rgba(255,255,255,0.6);
 }
+a:hover{
+    text-decoration: none!important;
+}
 li{
     list-style: none;
     color: rgba(255,255,255,0.8); 
@@ -285,4 +288,8 @@ p{
 }
 .often_proplem>div>div>div>ul>li{
     margin-top: 15px;
+}
+.move1,.move2,.move3,.move4,.move5,.move6,.move7,.move8{
+    color: #108CEE!important;
+    display: none;
 }

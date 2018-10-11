@@ -4,6 +4,9 @@ a{
     text-decoration: none;
     color: rgba(255,255,255,0.6);
 }
+a:hover{
+    text-decoration: none!important;
+}
 li{
     list-style: none;
     color: rgba(255,255,255,0.8); 
@@ -121,6 +124,8 @@ ul>li>a>span{
     margin-top: 50px;
 
 }
+
+
 
 .often_servers1{
     width:22%;
