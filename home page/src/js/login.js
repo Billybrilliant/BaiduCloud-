@@ -90,7 +90,9 @@ left_login.on('click', function () {
     rightcode.css('display', 'block');
     left_login.css('border-bottom','2px solid #108cee');
     right_login.css('border-bottom', 'none');
-    erweima.css('display','none');
+    erweima.css('display', 'none');
+    rightcode.removeClass('pc');
+    rightcode.addClass('erweimacode');
 });
 right_login.on('click', function () { 
     loginone.css('display', 'none');
