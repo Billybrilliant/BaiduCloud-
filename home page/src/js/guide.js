@@ -373,3 +373,178 @@ $('#eg22').mouseout(function(){
         'transition':'all 1s'
     });
 });
+
+
+
+// ========常见问题==============
+$('#what1').mouseover(function(){
+    $('#what1 a').css({
+        'color': '#108CEE'
+    });
+    $('.move1').show();
+    $('#what1').css({
+        'margin-left':'10px',
+        'transition':'all 1s'
+    });
+});
+
+$('#what1').mouseout(function(){
+    $('#what1 a').css({
+        'color': '#999'
+    });
+    $('.move1').hide();
+    $('#what1').css({
+        'margin-left':'0',
+        'transition':'all 1s'
+    });
+});
+$('#what2').mouseover(function(){
+    $('#what2 a').css({
+        'color': '#108CEE'
+    });
+    $('.move2').show();
+    $('#what2').css({
+        'margin-left':'10px',
+        'transition':'all 1s'
+    });
+});
+
+$('#what2').mouseout(function(){
+    $('#what2 a').css({
+        'color': '#999'
+    });
+    $('.move2').hide();
+    $('#what2').css({
+        'margin-left':'0',
+        'transition':'all 1s'
+    });
+});
+$('#what3').mouseover(function(){
+    $('#what3 a').css({
+        'color': '#108CEE'
+    });
+    $('.move3').show();
+    $('#what3').css({
+        'margin-left':'10px',
+        'transition':'all 1s'
+    });
+});
+
+$('#what3').mouseout(function(){
+    $('#what3 a').css({
+        'color': '#999'
+    });
+    $('.move3').hide();
+    $('#what3').css({
+        'margin-left':'0',
+        'transition':'all 1s'
+    });
+});
+
+$('#what4').mouseover(function(){
+    $('#what4 a').css({
+        'color': '#108CEE'
+    });
+    $('.move4').show();
+    $('#what4').css({
+        'margin-left':'10px',
+        'transition':'all 1s'
+    });
+});
+
+$('#what4').mouseout(function(){
+    $('#what4 a').css({
+        'color': '#999'
+    });
+    $('.move4').hide();
+    $('#what4').css({
+        'margin-left':'0',
+        'transition':'all 1s'
+    });
+});
+$('#what5').mouseover(function(){
+    $('#what5 a').css({
+        'color': '#108CEE'
+    });
+    $('.move5').show();
+    $('#what5').css({
+        'margin-left':'10px',
+        'transition':'all 1s'
+    });
+});
+
+$('#what5').mouseout(function(){
+    $('#what5 a').css({
+        'color': '#999'
+    });
+    $('.move5').hide();
+    $('#what5').css({
+        'margin-left':'0',
+        'transition':'all 1s'
+    });
+});
+
+$('#what6').mouseover(function(){
+    $('#what6 a').css({
+        'color': '#108CEE'
+    });
+    $('.move6').show();
+    $('#what6').css({
+        'margin-left':'10px',
+        'transition':'all 1s'
+    });
+});
+
+$('#what6').mouseout(function(){
+    $('#what6 a').css({
+        'color': '#999'
+    });
+    $('.move6').hide();
+    $('#what6').css({
+        'margin-left':'0',
+        'transition':'all 1s'
+    });
+});
+$('#what7').mouseover(function(){
+    $('#what7 a').css({
+        'color': '#108CEE'
+    });
+    $('.move7').show();
+    $('#what7').css({
+        'margin-left':'10px',
+        'transition':'all 1s'
+    });
+});
+
+$('#what7').mouseout(function(){
+    $('#what7 a').css({
+        'color': '#999'
+    });
+    $('.move7').hide();
+    $('#what7').css({
+        'margin-left':'0',
+        'transition':'all 1s'
+    });
+});
+
+$('#what8').mouseover(function(){
+    $('#what8 a').css({
+        'color': '#108CEE'
+    });
+    $('.move8').show();
+    $('#what8').css({
+        'margin-left':'10px',
+        'transition':'all 1s'
+    });
+});
+
+$('#what8').mouseout(function(){
+    $('#what8 a').css({
+        'color': '#999'
+    });
+    $('.move8').hide();
+    $('#what8').css({
+        'margin-left':'0',
+        'transition':'all 1s'
+    });
+});
