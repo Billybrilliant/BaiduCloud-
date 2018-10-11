@@ -90,7 +90,9 @@ left_login.on('click', function () {
     rightcode.css('display', 'block');
     left_login.css('border-bottom','2px solid #108cee');
     right_login.css('border-bottom', 'none');
-    erweima.css('display','none');
+    erweima.css('display', 'none');
+    rightcode.removeClass('pc');
+    rightcode.addClass('erweimacode');
 });
 right_login.on('click', function () { 
     loginone.css('display', 'none');
@@ -162,10 +164,11 @@ submit.on('mouseover', function () {
     var err = loginerror.text();
     if (err=='用户名可登录') {
         loginone.attr("action", "../php/login.php");
+        
     } else { 
         loginone.removeAttr("action");
     }
-    console.log(err);
+    // console.log(err);
 });
 
 

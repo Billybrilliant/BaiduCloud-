@@ -2,7 +2,7 @@
 #nav{
     position: absolute !important;
     top: 0;
-    width: 100%;
+    width: 1519px;
     z-index: 1000;
 
     
@@ -512,4 +512,8 @@
     color: #FFF;
     opacity: .6;
     transition: all 0.3s ease-in-out 0.05s;
+}
+#footer{
+    background: #232526;
+    width: 1519px;
 }

@@ -29,11 +29,11 @@
             <section class="banner">
                 <div class="container">
                     <div class="search">
-                        <a href="http://beian.bce.baidu.com">进入备案系统</a>
+                        <a href="../html/reg.html">进入备案系统</a>
                         <a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action">公共查询</a>
                         <div>
-                            <a href="">修改备案密码</a>
-                            <a href="">找回备案密码</a>
+                            <a href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action;jsessionid=qyQbSycV83csPDDqhPhbnMJnfCLp73pbpvLnyhktJ7C8CJGTGcbL!-731306245#">修改备案密码</a>
+                            <a href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action;jsessionid=qyQbSycV83csPDDqhPhbnMJnfCLp73pbpvLnyhktJ7C8CJGTGcbL!-731306245">找回备案密码</a>
                         </div><br>
                         <div class="service">
                             <i class="iconfont icon-weibiaoti-" style="font-size:20px"></i>服务热线 4008-777-818</div>
@@ -88,7 +88,7 @@
                                 填写备案信息
                             </div>
                             <div class="content">
-                                点击新增网站，按要求填写网站信息，上传域名证书等资质，各地管局规则<a href="/doc/BeiAn/ICP-Rule.html">点此查看</a>
+                                点击新增网站，按要求填写网站信息，上传域名证书等资质，各地管局规则<a href="https://cloud.baidu.com/doc/BeiAn/ICP-Rule.html">点此查看</a>
                             </div>
                         </div>
                         <div class="step3">
@@ -160,7 +160,7 @@
                                     <span>03-13</span>
                                 </li>
                             </ul>
-                            <a href=""><i class="iconfont icon-xiangyoufanye"></i>更多</a>
+                            <a href="https://cloud.baidu.com/notice/index.html"><i class="iconfont icon-xiangyoufanye"></i>更多</a>
                         </div>
                     </div>
                     <div class="question">
@@ -252,7 +252,7 @@
                     </a>
 
                 </li>
-                <li>
+                <li id="nect">
                     <a href="">
                         <span><i class="iconfont icon-weibiaoti-"></i></span>
                         <p>联系<br>我们</p>
@@ -405,6 +405,9 @@
         </footer>
     </div>
 
+    <button type="button" class="btn btn-default pull-right" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+       
+      </button>
 
 
     <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
@@ -424,6 +427,10 @@
         else mt.hide();
     });
     $(window).trigger('scroll');
+    var nect = $('#nect');
+    // $('nect').on('click', function() {
+
+    // })
 </script>
 
 </html>
