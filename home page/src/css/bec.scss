@@ -497,7 +497,11 @@ ol {
 // #tabone:hover #tabimg1{
 //     background: url('../images/hot-activity-logo2.png');
 // }
-
+.forum-model-wrapper:hover {
+    height: 117px;
+    border: 2px solid #03978b;
+    margin-bottom: 29px;
+}
 #tabimg2{
     display: inline-block;
     position: absolute;
