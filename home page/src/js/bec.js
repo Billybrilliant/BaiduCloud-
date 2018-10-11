@@ -102,3 +102,47 @@ $('#exit').click(function() {
     $('#uname').empty()
     localStorage.removeItem('uname')
 })
+
+var tabone = $('#tabone');
+var tabimg1 = $('#tabimg1');
+var tabtwo = $('#tabtwo');
+var tabimg2 = $('#tabimg2');
+var tabthree = $('#tabthree');
+var tabimg3 = $('#tabimg3');
+tabone.on('mouseover', function () {
+  tabimg1.css({
+    'background':" URL('../images/hot-activity-logo2.png')",
+  });
+  tabimg2.css({
+    'background':" URL('../images/hot-product-logo.png')",
+  });
+  tabimg3.css({
+    'background':" URL('../images/hot-question-logo.png')",
+  });
+});
+  
+
+tabtwo.on('mouseover', function () {
+  tabimg2.css({
+    'background':" URL('../images/hot-product-logo2.png')",
+  });
+  tabimg1.css({
+    'background':" URL('../images/hot-activity-logo.png')",
+  });
+  tabimg3.css({
+    'background':" URL('../images/hot-question-logo.png')",
+  });
+});
+  
+tabthree.on('mouseover', function () {
+  tabimg3.css({
+    'background':" URL('../images/hot-question-logo2.png')",
+  });
+  tabimg1.css({
+    'background':" URL('../images/hot-activity-logo.png')",
+  });
+  tabimg2.css({
+    'background':" URL('../images/hot-product-logo.png')",
+  });
+});
+  

@@ -492,6 +492,55 @@ ol {
   font-family: "微软雅黑";
 }
 
+.txt {
+  position: absolute;
+  left: 75px;
+}
+
+#tabimg1 {
+  display: inline-block;
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  background: url("../images/hot-activity-logo.png");
+}
+
+#tabimg2 {
+  display: inline-block;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  background: url("../images/hot-product-logo.png");
+}
+
+.txttwo {
+  position: absolute;
+  left: 55px;
+}
+
+#right_tab {
+  margin-top: -24px;
+}
+
+#tabimg3 {
+  display: inline-block;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  background: url("../images/hot-question-logo.png");
+}
+
+.txtthree {
+  position: absolute;
+  left: 75px;
+}
+
 #uname {
   line-height: 60px;
   position: relative;
@@ -519,7 +568,7 @@ ol {
   line-height: 20px;
   bottom: -15px;
   font-weight: normal;
-  left: 10px !important;
+  left: 0;
   color: #fff;
   background: #1E1D22;
   opacity: .8;

@@ -19,6 +19,7 @@ body {
   height: 450px;
   background-position: center 0;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 #banner-bg::before {

@@ -479,6 +479,62 @@ ol {
     margin-right: 15px;
     font-family: "微软雅黑";
 }
+.txt{
+    // margin-top: -15px;
+    position: absolute;
+    left: 75px;
+}
+#tabimg1{
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    width: 40px;
+    height:40px;
+    background: url('../images/hot-activity-logo.png');
+    
+}
+// #tabone:hover #tabimg1{
+//     background: url('../images/hot-activity-logo2.png');
+// }
+
+#tabimg2{
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    width: 40px;
+    height:40px;
+    background: url('../images/hot-product-logo.png');
+}
+// #tabtwo:hover #tabimg2{
+//     background: url('../images/hot-product-logo2.png');
+// }
+.txttwo{
+    // margin-top: -15px;
+    position: absolute;
+    left: 55px;
+}
+#right_tab{
+    margin-top: -24px;
+}
+#tabimg3{
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    width: 40px;
+    height:40px;
+    background: url('../images/hot-question-logo.png');
+}
+// #tabthree:hover #tabimg3{
+//     background: url('../images/hot-question-logo2.png');
+// }
+.txtthree{
+    // margin-top: -15px;
+    position: absolute;
+    left: 75px; 
+}
 #uname {
     line-height: 60px;
     position: relative;
@@ -506,8 +562,8 @@ padding-left: 0!important;
     line-height: 20px;
     bottom: -15px;
     font-weight: normal;
-   left: 10px!important;
-    // left: 0;
+//    left: 10px!important;
+    left: 0;
     color: #fff;
     background: #1E1D22;
     opacity: .8;
