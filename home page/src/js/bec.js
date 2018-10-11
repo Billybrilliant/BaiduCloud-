@@ -87,3 +87,18 @@ lifour.on('mouseout', function () {
   lifour_div2.removeClass('out');
   lifour_div2.addClass('in');
 });
+
+var storage = localStorage.getItem('uname')
+storage = JSON.parse(storage);
+$('#uname').html(storage)
+if (storage) {
+    $('#login').empty()
+    $('.sign_in').empty()
+
+}
+$('#exit').click(function() {
+    $('#login').html('登录')
+    $('.sign_in').html('注册')
+    $('#uname').empty()
+    localStorage.removeItem('uname')
+})

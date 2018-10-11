@@ -479,6 +479,43 @@ ol {
     margin-right: 15px;
     font-family: "微软雅黑";
 }
+#uname {
+    line-height: 60px;
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+}
+
+.uname {
+    /* padding: 0 15px; */
+    height: 80px !important;
+    position: relative;
+padding-left: 0!important;
+}
+
+.uname:hover #exit {
+    display: block;
+}
+
+#exit {
+    z-index: 100;
+    width: 100%;
+    display: block;
+    position: absolute;
+    width: 100%;
+    line-height: 20px;
+    bottom: -15px;
+    font-weight: normal;
+   left: 10px!important;
+    // left: 0;
+    color: #fff;
+    background: #1E1D22;
+    opacity: .8;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+    padding: 10px 0;
+}
 // 底部
 #footer{
     width: 1519px;

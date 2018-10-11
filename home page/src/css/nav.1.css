@@ -1,3 +1,37 @@
+#uname {
+    line-height: 60px;
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+}
+
+.uname {
+    /* padding: 0 15px; */
+    height: 80px !important;
+
+}
+
+.uname:hover #exit {
+    display: block;
+}
+
+#exit {
+    width: 100%;
+    display: block;
+    position: absolute;
+    width: 100%;
+    line-height: 20px;
+    bottom: -20px;
+    font-weight: normal;
+    left: 0;
+    color: #fff;
+    background: #1E1D22;
+    opacity: .8;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+    padding: 10px 0;
+}
         .nav_top {
             padding: 0;
             /* background: rgba(0, 0, 0, 0.1); */
