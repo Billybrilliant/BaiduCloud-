@@ -375,6 +375,7 @@
   background-image: url(../images/bg4.png);
   padding: 0;
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .all-dec ul {
@@ -530,6 +531,7 @@
 .all-dec .right > .box1 {
   opacity: 1;
   top: 0;
+  z-index: 10;
 }
 
 .yun-product {
@@ -733,7 +735,9 @@
   padding: 0;
   background: #000;
   background-image: url(../images/bg10.png);
-  background-position: center;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 150%;
 }
 
 .data-center > .container {
@@ -961,6 +965,7 @@
   line-height: 26px;
   display: inline-block;
   width: 270px;
+  transition: all 3s;
 }
 
 .data > .container > .main > .box > .right > p {
@@ -1471,6 +1476,13 @@
   background-image: url(../images/icon_7f425a0e.png);
   background-position: 0 -33.75rem;
   background-size: 18.75rem 40.75rem;
+}
+
+.bg-change {
+  border-bottom: 1px solid #E9E9E9;
+  border-top: 1px solid #E9E9E9;
+  background-color: #F9F9F9;
+  transition: all 0.3s;
 }
 
 .xs-news h2 {

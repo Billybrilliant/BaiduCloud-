@@ -29,4 +29,18 @@ $(function() {
     }, function() {
         $(this).children('i').removeClass('change2')
     })
+
+    var storage = localStorage.getItem('uname')
+    $('#uname').html(storage)
+    if (storage) {
+        $('#login').empty()
+        $('.sign_in').empty()
+
+    }
+    $('#exit').click(function() {
+        $('#login').html('登录')
+        $('.sign_in').html('注册')
+        $('#uname').empty()
+    })
+
 })

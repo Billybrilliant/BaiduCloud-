@@ -331,6 +331,7 @@
     background-image: url(../images/bg4.png);
     padding: 0;
     background-size: 100%;
+    background-repeat: no-repeat;
     ul {
         list-style: none;
         float: left;
@@ -465,6 +466,7 @@
         >.box1 {
             opacity: 1;
             top: 0;
+            z-index: 10;
         }
     }
 }
@@ -650,7 +652,9 @@
     padding: 0;
     background: #000;
     background-image: url(../images/bg10.png);
-    background-position: center;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 150%;
     >.container {
         position: relative;
         >h2 {
@@ -843,6 +847,7 @@
                         line-height: 26px;
                         display: inline-block;
                         width: 270px;
+                        transition: all 3s;
                     }
                     >p {
                         font-size: 14px;
@@ -1319,6 +1324,13 @@
             background-size: 18.75rem 40.75rem;
         }
     }
+}
+
+.bg-change {
+    border-bottom: 1px solid #E9E9E9;
+    border-top: 1px solid #E9E9E9;
+    background-color: #F9F9F9;
+    transition: all 0.3s;
 }
 
 .xs-news {

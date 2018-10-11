@@ -696,6 +696,38 @@
             margin-left: 98px;
         }
         
+        #uname {
+            line-height: 60px;
+            position: relative;
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        .uname {
+            padding: 0 15px;
+            height: 80px !important;
+        }
+        
+        .uname:hover #exit {
+            display: block;
+        }
+        
+        #exit {
+            width: 100%;
+            display: block;
+            position: absolute;
+            width: 100%;
+            line-height: 20px;
+            bottom: -20px;
+            left: 0;
+            background: #fff;
+            opacity: .8;
+            text-align: center;
+            display: none;
+            cursor: pointer;
+            padding: 10px 0;
+        }
+        
         @media(min-width:768px) {}
         
         @media(min-width:992px) {}
