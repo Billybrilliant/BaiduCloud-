@@ -62,21 +62,21 @@ li{
 }
 /* ============================================================= */
 
-.nav{
+.dao_nav{
     width: 100%;
     height: 70px;
     background: #F5F5F5;
 }
-.nav_list{
+.dao_list{
     height: 70px;
     width: 1180px;
     margin: 0 auto;
 }
-.nav_list>ul{
+.dao_list>ul{
     width: 100%;
     height: 100%;
 }
-.nav_list>ul>li{
+.dao_list>ul>li{
     float: left;
     width: 33%;
     height: 100%;
@@ -124,24 +124,32 @@ ul>li>a>span{
 
 .often_servers1{
     width:22%;
-    border: 1px solid rgba(0,0,0, 0.6);
+    height: 200px;
+    border: 1px solid rgba(0,0,0, 0.3);
     float: left;
-    margin-left: 3%;
+    margin-left:3%;
+    overflow: hidden;
 }
 
 .often_servers1>img{
     width: 72px;
     height: 72px;
-    margin-left: 30%;
-    margin-top: 20%;
-    margin-bottom: 10%;
+    position: relative;
+    left: 30%;
+    top: 50px;
     
+}
+#tend_h4{
+    position: relative;
+    top: 70px;
 }
 #sigin{
     width: 70px;
     height: 20px;
     border: 1px solid rgba(0,0,0, 0.4);
     margin: 0 auto;
+    position: relative;
+    top: 100px;
 }
 #sigin:hover{
     background: blue;
@@ -149,24 +157,33 @@ ul>li>a>span{
 /* 第一行第二个 */
 .often_servers2{
     width:22%;
-    border: 1px solid rgba(0,0,0, 0.6);
+    height: 200px;
+    border: 1px solid rgba(0,0,0, 0.3);
     float: left;
-    margin-left: 3%;
+    margin-left:3%;
+    overflow: hidden;
 }
 
 .often_servers2>img{
     width: 72px;
     height: 72px;
-    margin-left: 30%;
-    margin-top: 20%;
-    margin-bottom: 10%;
+    position: relative;
+    left: 30%;
+    top: 50px;
     
 }
+#tend_h2{
+    position: relative;
+    top: 70px;
+}
 #sigin2{
-    width: 110px;
+    width: 100px;
     height: 20px;
     border: 1px solid rgba(0,0,0, 0.4);
     margin: 0 auto;
+    position: relative;
+    top: 100px;
+   
 }
 #sigin2:hover{
     background: blue;
@@ -174,24 +191,32 @@ ul>li>a>span{
 /* ======================== */
 .often_servers3{
     width:22%;
-    border: 1px solid rgba(0,0,0, 0.6);
+    height: 200px;
+    border: 1px solid rgba(0,0,0, 0.3);
     float: left;
-    margin-left: 3%;
+    margin-left:3%;
+    overflow: hidden;
 }
 
 .often_servers3>img{
     width: 72px;
     height: 72px;
-    margin-left: 30%;
-    margin-top: 20%;
-    margin-bottom: 10%;
+    position: relative;
+    left: 30%;
+    top: 50px;
     
 }
+#tend_h3{
+    position: relative;
+    top: 70px;
+}
 #sigin3{
-    width: 110px;
+    width: 70px;
     height: 20px;
     border: 1px solid rgba(0,0,0, 0.4);
     margin: 0 auto;
+    position: relative;
+    top: 100px;
 }
 #sigin3:hover{
     background: blue;
@@ -199,25 +224,34 @@ ul>li>a>span{
 /* ============================= */
 .often_servers4{
     width:22%;
-    border: 1px solid rgba(0,0,0, 0.6);
+    height: 200px;
+    border: 1px solid rgba(0,0,0, 0.3);
     float: left;
-    margin-left: 3%;
+    margin-left:3%;
+    overflow: hidden;
 }
 
 .often_servers4>img{
     width: 72px;
     height: 72px;
-    margin-left: 30%;
-    margin-top: 20%;
-    margin-bottom: 10%;
+    position: relative;
+    left: 30%;
+    top: 50px;
     
 }
+#tend_h5{
+    position: relative;
+    top: 70px;
+}
 #sigin4{
-    width: 110px;
+    width: 70px;
     height: 20px;
     border: 1px solid rgba(0,0,0, 0.4);
     margin: 0 auto;
+    position: relative;
+    top: 100px;
 }
+
 #sigin4:hover{
     background: blue;
 }
@@ -226,49 +260,66 @@ ul>li>a>span{
 /* ================================= */
 .often_servers6{
     width:22%;
-    border: 1px solid rgba(0,0,0, 0.6);
+    height: 200px;
+    border: 1px solid rgba(0,0,0, 0.3);
     float: left;
-    margin-left: 3%;
+    margin-left:3%;
+    overflow: hidden;
 }
 
 .often_servers6>img{
     width: 72px;
     height: 72px;
-    margin-left: 30%;
-    margin-top: 20%;
-    margin-bottom: 10%;
+    position: relative;
+    left: 30%;
+    top: 50px;
     
 }
+#tend_h6{
+    position: relative;
+    top: 70px;
+}
 #sigin6{
-    width: 110px;
+    width: 70px;
     height: 20px;
     border: 1px solid rgba(0,0,0, 0.4);
     margin: 0 auto;
+    position: relative;
+    top: 100px;
 }
+
 #sigin6:hover{
     background: blue;
 }
 /* ================================= */
 .often_servers7{
     width:22%;
-    border: 1px solid rgba(0,0,0, 0.6);
+    height: 200px;
+    border: 1px solid rgba(0,0,0, 0.3);
     float: left;
-    margin-left: 3%;
+    margin-left:3%;
+    overflow: hidden;
 }
 
 .often_servers7>img{
     width: 72px;
     height: 72px;
-    margin-left: 30%;
-    margin-top: 20%;
-    margin-bottom: 10%;
+    position: relative;
+    left: 30%;
+    top: 50px;
     
 }
+#tend_h7{
+    position: relative;
+    top: 70px;
+}
 #sigin7{
-    width: 110px;
+    width: 70px;
     height: 20px;
     border: 1px solid rgba(0,0,0, 0.4);
     margin: 0 auto;
+    position: relative;
+    top: 100px;
 }
 #sigin7:hover{
     background: blue;
@@ -440,3 +491,6 @@ ul>li>a>span{
     font-size: 14px;
     color: #999;
 }
+
+
+/* ========================右侧小部件================ */

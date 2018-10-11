@@ -429,6 +429,11 @@ input {
 .pc{
     background-position: 0 -86px!important;
 }
+#loginerror{
+    color: #f28281;
+    font-size: 12px;
+}
+
 // 尾部
 footer {
     text-align: center;
@@ -482,10 +487,11 @@ footer a {
     .submit {
         width: 100% !important;
     }
+   
 }
 
 @media(max-width:630px) {
-    footer {
+    .footer {
         display: none;
     }
     #loginleft{
@@ -503,5 +509,5 @@ footer a {
     .brand{
         width: 100%;
     }
-  
+    
 }

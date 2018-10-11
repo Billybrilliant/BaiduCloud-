@@ -32,8 +32,8 @@
                 <p class="text-center">百度云合作伙伴计划是百度云推出<span class="hidden-xs">的</span>基于百度人工智能、大数据、云计算<span class="hidden-xs">的生态系统平台。通过提供业务、技术、营销、培训和资金支持，</span></br>
                     帮助合作伙伴<span class="hidden-xs">快速</span>开展基于百度云的云计算、大数据和人工智能相关业务。</p>
                 <div class="btns text-center">
-                    <a class="btn btn-default" href="#" role="button">加入生态计划</a>
-                    <a class="btn btn-default" href="#" role="button">查找合作伙伴</a>
+                    <a class="btn btn-default" href="https://cloud.baidu.com/survey/PartnerApply.html" role="button">加入生态计划</a>
+                    <a class="btn btn-default" href="#part" role="button">查找合作伙伴</a>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@
                 <ul class="flowline">
                     <li>
                         <div>
-                            <i class="iconfont icon-diqiu"></i>
+                            <i class="icon iconfont icon-diqiu"></i>
                         </div>
                         <span>注册百度云账号</span>
                     </li>
@@ -126,7 +126,7 @@
                             </li>
                         </ul>
                         <div class="links">
-                            <a href="">加入生态计划</a>
+                            <a href="https://cloud.baidu.com/survey/PartnerApply.html">加入生态计划</a>
                         </div>
                     </li>
                     <li class="block1">
@@ -151,12 +151,39 @@
                             </li>
                         </ul>
                         <div class="links">
-                            <a href="">加入生态计划</a>
+                            <a href="https://cloud.baidu.com/survey/PartnerApply.html">加入生态计划</a>
                         </div>
                     </li>
                 </ul>
             </div>
         </div>
+        <article class="fixed">
+            <ul>
+                <li>
+                    <a href="">
+                        <span><i class="iconfont icon-border_color"></i></span>
+                        <p>业务<br>咨询</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span><i class="iconfont icon-zixun"></i></span>
+                        <p> 官网<br>论坛</p>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="">
+                        <span><i class="iconfont icon-weibiaoti-"></i></span>
+                        <p>联系<br>我们</p>
+                    </a>
+                </li>
+                <li id="mt">
+                    <span><i class="iconfont icon-huidingbu"></i></span>
+                    <p>返回<br>顶部</p>
+                </li>
+            </ul>
+        </article>
         <div class="case">
             <div class="container">
                 <h3>合作伙伴生态为百度云用户全面赋能</h3>
@@ -195,7 +222,7 @@
                 </a>
             </div>
         </div>
-        <div class="partners">
+        <div class="partners" id="part">
             <div class="container">
                 <h3>1000+ 合作伙伴在百度云</h3>
                 <p>百度云合作伙伴就在您身边，为企业保驾护航！更多合作伙伴请在此处查找</p>
@@ -376,8 +403,21 @@
 
     <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
     <script src="../js/yunshichang.js"></script>
+    <script>
+        mt.onclick = function() {
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script>
+        var mt = $('#mt')
+        $(window).on('scroll', function() {
+            if ($(window).scrollTop() > $(window).height())
+                mt.show();
+            else mt.hide();
+        });
+        $(window).trigger('scroll');
+    </script>
 </body>
 
 </html>

@@ -90,7 +90,9 @@ left_login.on('click', function () {
     rightcode.css('display', 'block');
     left_login.css('border-bottom','2px solid #108cee');
     right_login.css('border-bottom', 'none');
-    erweima.css('display','none');
+    erweima.css('display', 'none');
+    rightcode.removeClass('pc');
+    rightcode.addClass('erweimacode');
 });
 right_login.on('click', function () { 
     loginone.css('display', 'none');
@@ -101,5 +103,73 @@ right_login.on('click', function () {
     right_login.css('border-bottom', '2px solid #108cee');
     erweima.css('display','none');
 });
+
+
+// 登录实现
+// 检测数据库用户名
+var username = $('#uname'); //用户名输入框
+var loginerror = $('#loginerror'); //登录错误提示
+username.on('blur', function () { 
+    //1.创建XHR对象 创建异步对象
+    var xhr = null;
+    if (window.XMLHttpRequest) {
+        xhr = new XMLHttpRequest(); //标准创建
+    } else {
+        //IE6及以下的创建方式
+        xhr = new ActiveXObject("Microsoft.XMLHttp");
+    }
+
+    //2.创建请求
+    var uname = username.val();
+    //获取输入框里的值，把用户名传到后端，再查询
+    var url = "../php/check-name.php?uname=" + uname;
+    xhr.open("get", url, true);
+    //查询用户名称，用get方法就行，去数据库查询，看用户名是否已经存在
+    //查询用get就行，向服务器提交数据时再用post
+
+    //3.设置回调函数，监听状态
+    //参数true，异步
+
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            //判断状态，xhr请求状态为4，表示接收响应数据成功；当status的值是200的时候，表示服务器已经正确的处理请求以及给出响应
+            var resultStr = xhr.responseText;
+          var resultJson  =JSON.parse(resultStr);
+            if (resultJson=='true') {
+                loginerror.text("用户名不存在");   
+                username.css("outline", "none"); //去除聚焦时的边框
+                username.css("border-color", "red"); //设置错误时边框
+            } else {
+                // form.removeAttr("action");
+                loginerror.text("用户名可登录");
+                username.css("outline", "none"); //去除聚焦时的边框
+                username.css("border-color", "#bdc7d3");
+            }
+            // console.log(resultJson=='false');
+            //提示内容
+        };
+    };
+
+    //4.发送请求
+    xhr.send(null);
+    //get请求，参数写null
+});
+
+
+//判断是否可登录 
+var loginone = $('#loginone');
+var submit = $('#submit');
+submit.on('mouseover', function () { 
+    // 满足所有规则时向后台提交数据
+    var err = loginerror.text();
+    if (err=='用户名可登录') {
+        loginone.attr("action", "../php/login.php");
+        
+    } else { 
+        loginone.removeAttr("action");
+    }
+    // console.log(err);
+});
+
 
 

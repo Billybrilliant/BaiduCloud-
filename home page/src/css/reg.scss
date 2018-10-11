@@ -148,6 +148,18 @@ footer a {
         padding: 0!important;
     }
 }
+@media(max-width:1199px){
+    .invalid-label {
+        position: static!important;
+    }
+    .reg-form .san-form-item {
+        margin:0;
+     
+    }
+    #_san_13{
+        margin-top: 10px;
+    }
+}
 @media(max-width:875px){
     #_san_2{
         width: 100%; 
@@ -172,10 +184,12 @@ footer a {
     .submit{
         width: 100%!important;
     }
+   
 }
 @media(max-width:630px){
    footer{
        display: none;
    }
+  
 }
 
