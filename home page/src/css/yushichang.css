@@ -26,7 +26,7 @@
       .hang1,
       .hang2,
       .carousel {
-          margin-top: 60px;
+          margin-top: 80px;
       }
       .hang1 {
           background-image: url("../images/yungo.png");
@@ -172,9 +172,9 @@
           margin-left: 320px;
           background-color: #fff;
       }
-      .tp {
+      /* .tp {
           margin-top: 30px;
-      }
+      } */
       .zhuti {
           margin-top: 50px;
           width: 100%;
