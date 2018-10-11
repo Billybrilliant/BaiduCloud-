@@ -164,10 +164,11 @@ submit.on('mouseover', function () {
     var err = loginerror.text();
     if (err=='用户名可登录') {
         loginone.attr("action", "../php/login.php");
+        
     } else { 
         loginone.removeAttr("action");
     }
-    console.log(err);
+    // console.log(err);
 });
 
 

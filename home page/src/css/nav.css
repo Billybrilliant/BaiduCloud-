@@ -704,8 +704,9 @@
         }
         
         .uname {
-            padding: 0 15px;
+            /* padding: 0 15px; */
             height: 80px !important;
+
         }
         
         .uname:hover #exit {
@@ -719,8 +720,10 @@
             width: 100%;
             line-height: 20px;
             bottom: -20px;
+            font-weight: normal;
             left: 0;
-            background: #fff;
+            color: #fff;
+            background: #1E1D22;
             opacity: .8;
             text-align: center;
             display: none;

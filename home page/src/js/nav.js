@@ -30,6 +30,7 @@ $(function() {
         $(this).children('i').removeClass('change2')
     })
     var storage = localStorage.getItem('uname')
+    storage = JSON.parse(storage);
     $('#uname').html(storage)
     if (storage) {
         $('#login').empty()
