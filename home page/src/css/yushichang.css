@@ -491,6 +491,9 @@
       .second .con>div>div>div:nth-child(2) {
           font-size: 12px;
       }
+      .second .con>div>div>div:nth-child(3) {
+          padding-left: 0 !important;
+      }
       .second .con>div>div>div:nth-child(3) p {
           color: red;
       }
@@ -498,6 +501,7 @@
           padding: 3px 6px;
           border: 1px solid #108cee;
           color: #108cee;
+          margin-left: 18px;
       }
       .hf {
           background-color: #108cee;
