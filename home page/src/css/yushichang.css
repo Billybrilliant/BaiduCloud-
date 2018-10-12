@@ -390,6 +390,22 @@
           width: 100%;
           background: black;
       }
+      .row{
+          margin: 0;
+      }
+      .container {
+          padding: 0;
+          margin: 0;
+      }
+      .carousel-inner{
+        margin-top: 43px!important;
+      }
+      .carousel-inner .item{
+          width: 100%;
+      }
+      .carousel-inner>.item>img{
+          width: 375.2px!important;
+      }
       .top img {
           margin: 12px;
       }
