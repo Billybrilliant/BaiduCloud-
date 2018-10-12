@@ -701,6 +701,7 @@
             position: relative;
             color: #fff;
             cursor: pointer;
+          
         }
         
         .uname {
@@ -731,7 +732,15 @@
             padding: 10px 0;
         }
         
-        @media(min-width:768px) {}
+        @media(max-width:768px) {
+            #uname{
+                top: -10px;
+                left: 45%;
+            }
+            .uname{
+                height: 0!important;
+            }
+        }
         
         @media(min-width:992px) {}
         
