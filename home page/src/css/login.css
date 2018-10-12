@@ -479,6 +479,9 @@ footer a {
   .submit {
     width: 100% !important;
   }
+  header .right {
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 630px) {
