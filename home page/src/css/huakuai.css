@@ -1,0 +1,72 @@
+.fixed {
+    position: fixed;
+    right: 7px;
+    bottom: 80px;
+    font-size: 16px;
+    z-index: 8;
+    /* background-color: #108cee; */
+}
+
+article ul li {
+    list-style: none;
+    background-color: #108cee;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    position: relative;
+}
+
+article ul li:first-child a {
+    margin-top: 4px;
+}
+
+article ul li:hover {
+    background-color: #3b9eeb;
+}
+
+article ul li p {
+    color: #108cee;
+}
+
+article ul li:hover i {
+    color: #3b9eeb;
+}
+
+article ul li:hover p {
+    color: #fff;
+    display: block;
+}
+
+article ul li:hover a {
+    text-decoration: none;
+}
+
+article ul li i {
+    font-size: 16px;
+    color: #fff;
+    padding-top: 4px;
+}
+
+article ul li span {
+    margin-top: 4px;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}
+
+article ul li p {
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    display: none;
+}
+
+article ul li p:first-child {
+    position: absolute;
+    left: 8px!important;
+}
