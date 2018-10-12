@@ -705,7 +705,7 @@
         
         .uname {
             /* padding: 0 15px; */
-            height: 80px !important;
+            height: 60px !important;
 
         }
         
@@ -717,9 +717,9 @@
             width: 100%;
             display: block;
             position: absolute;
-            width: 100%;
+   
             line-height: 20px;
-            bottom: -20px;
+            /* bottom: -20px; */
             font-weight: normal;
             left: 0;
             color: #fff;
