@@ -714,7 +714,13 @@
       .second .con>div>div>div:nth-child(2) {
           font-size: 12px;
       }
+<<<<<<< HEAD
 
+=======
+      .second .con>div>div>div:nth-child(3) {
+          padding-left: 0 !important;
+      }
+>>>>>>> 929f7781b9eb63d57a436797af5bfbdbbb122cd9
       .second .con>div>div>div:nth-child(3) p {
           color: red;
       }
@@ -723,6 +729,7 @@
           padding: 3px 6px;
           border: 1px solid #108cee;
           color: #108cee;
+          margin-left: 18px;
       }
 
       .hf {

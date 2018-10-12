@@ -35,7 +35,7 @@ $('.yun-server>.left>div').not($('.yun')).on('click', function() {
     $('.yun-server>.right>div').eq(_index).siblings().animate({
         top: 80,
         opacity: 0,
-    }, 500)
+    }, 700)
     $('.yun-server>.right>div').eq(_index).siblings().css({
         zIndex: -1,
     })
@@ -46,8 +46,8 @@ $('.yun-server>.left>div').not($('.yun')).on('click', function() {
         $('.yun-server>.right>div').eq(_index).animate({
             top: 50,
             opacity: 1,
-        }, 500)
-    }, 600)
+        }, 700)
+    }, 710)
     console.log($('.yun>img').offset());
     $(this).children('img')[0].src = $('.yun>img')[0].src;
     $('.yun>img')[0].src = url;
@@ -58,6 +58,39 @@ $('.yun-server>.left>div').not($('.yun')).on('click', function() {
     $(this).children('h4').html($('.yun>h4').html())
     $('.yun>h4').html(h4)
     console.log(_index)
+    $('.outer').css({
+        transform: ' scale(0)',
+        opacity: 0
+    })
+    $('.inner').css({
+        transform: 'scale(0)',
+        opacity: 0
+
+
+    })
+    $('.line').animate({
+        width: 0,
+    })
+    $('.yun>img').hide()
+    $('.yun>h2').hide()
+    $('.yun>h4').hide()
+    setTimeout(function() {
+        $('.outer').css({
+            transform: ' scale(1)',
+            opacity: 1
+        })
+        $('.inner').css({
+            transform: 'scale(1)',
+            opacity: 1
+
+        })
+        $('.line').animate({
+            width: '170px',
+        })
+        $('.yun>img').show()
+        $('.yun>h2').show()
+        $('.yun>h4').show()
+    }, 1500)
 
 })
 $('.all-dec li').mouseenter(function() {

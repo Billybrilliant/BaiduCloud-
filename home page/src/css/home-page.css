@@ -209,35 +209,38 @@
   border-radius: 50%;
   top: 230px;
   left: 350px;
+  transition: all 1s;
 }
 
-.yun-server > .left > .outer > .inner {
+.yun-server > .left > .inner {
   width: 202px;
   height: 202px;
   position: absolute;
   border-radius: 140px;
-  top: 39px;
-  left: 39px;
+  top: 269px;
+  left: 389px;
   box-shadow: 0 0 40px rgba(11, 101, 255, 0.27);
+  transition: all 1.5s;
 }
 
-.yun-server > .left > .outer > .inner > div {
+.yun-server > .left > .inner > .yun {
   width: 76px;
   height: 76px;
   margin: 63px;
   border-radius: 38px;
 }
 
-.yun-server > .left > .outer > .inner > div > p {
+.yun-server > .left > .inner > .yun > p {
   display: none;
 }
 
-.yun-server > .left > .outer > .inner > div > img {
+.yun-server > .left > .inner > .yun > img {
   width: 100%;
   height: 100%;
+  display: block;
 }
 
-.yun-server > .left > .outer > .inner > div > h2 {
+.yun-server > .left > .inner > .yun > h2 {
   position: absolute;
   width: 150px;
   top: 30px;
@@ -249,7 +252,7 @@
   text-align: left;
 }
 
-.yun-server > .left > .outer > .inner > div > h4 {
+.yun-server > .left > .inner > .yun > h4 {
   position: absolute;
   top: 100px;
   left: 145px;
@@ -261,23 +264,26 @@
   text-align: left;
 }
 
-.yun-server > .left > .outer > .inner > div > .line {
+.yun-server > .left > .inner > .yun > .line {
   position: absolute;
-  height: 2px;
+  line-height: 7px;
+  height: 7px;
   width: 170px;
-  transition: all 1s;
-  top: 100px;
+  transition: all .2s;
+  top: 97px;
   left: 139px;
+  overflow: hidden;
+  padding-top: 3px;
 }
 
-.yun-server > .left > .outer > .inner > div > .line > span {
+.yun-server > .left > .inner > .yun > .line > span {
   width: 150px;
   height: 2px;
   float: left;
   background: #d2d2d2;
 }
 
-.yun-server > .left > .outer > .inner > div > .line > span:nth-child(2) {
+.yun-server > .left > .inner > .yun > .line > span:nth-child(2) {
   width: 7px;
   height: 7px;
   border-radius: 50%;
@@ -362,6 +368,14 @@
   line-height: 26px;
   color: #666;
   margin: 0;
+}
+
+.yun-server > .right > div > div:nth-child(5) > .left {
+  background-position: -32px 0px;
+}
+
+.yun-server > .right > div > div:nth-child(6) > .left {
+  background-position: -64px 0px;
 }
 
 .yun-server > .right > .box2 {

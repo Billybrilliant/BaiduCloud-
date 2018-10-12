@@ -183,70 +183,76 @@
             border-radius: 50%;
             top: 230px;
             left: 350px;
-            >.inner {
-                width: 202px;
-                height: 202px;
-                position: absolute;
-                border-radius: 140px;
-                top: 39px;
-                left: 39px;
-                box-shadow: 0 0 40px rgba(11, 101, 255, 0.27);
-                >div {
-                    width: 76px;
-                    height: 76px;
-                    margin: 63px;
-                    border-radius: 38px;
-                    >p {
-                        display: none;
-                    }
-                    >img {
-                        width: 100%;
-                        height: 100%;
-                    }
-                    >h2 {
-                        position: absolute;
+            transition: all 1s;
+        }
+        >.inner {
+            width: 202px;
+            height: 202px;
+            position: absolute;
+            border-radius: 140px;
+            top: 269px;
+            left: 389px;
+            box-shadow: 0 0 40px rgba(11, 101, 255, 0.27);
+            transition: all 1.5s;
+            >.yun {
+                width: 76px;
+                height: 76px;
+                margin: 63px;
+                border-radius: 38px;
+                >p {
+                    display: none;
+                }
+                >img {
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                }
+                >h2 {
+                    position: absolute;
+                    width: 150px;
+                    top: 30px;
+                    left: 140px;
+                    font-size: 47px;
+                    line-height: 50px;
+                    color: #333333;
+                    font-weight: 700;
+                    text-align: left;
+                }
+                >h4 {
+                    position: absolute;
+                    top: 100px;
+                    left: 145px;
+                    width: 140px;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #333333;
+                    font-weight: 700;
+                    text-align: left;
+                }
+                >.line {
+                    position: absolute;
+                    line-height: 7px;
+                    height: 7px;
+                    width: 170px;
+                    transition: all .2s;
+                    top: 97px;
+                    left: 139px;
+                    overflow: hidden;
+                    padding-top: 3px;
+                    >span {
                         width: 150px;
-                        top: 30px;
-                        left: 140px;
-                        font-size: 47px;
-                        line-height: 50px;
-                        color: #333333;
-                        font-weight: 700;
-                        text-align: left;
-                    }
-                    >h4 {
-                        position: absolute;
-                        top: 100px;
-                        left: 145px;
-                        width: 140px;
-                        font-size: 16px;
-                        line-height: 26px;
-                        color: #333333;
-                        font-weight: 700;
-                        text-align: left;
-                    }
-                    >.line {
-                        position: absolute;
                         height: 2px;
-                        width: 170px;
-                        transition: all 1s;
-                        top: 100px;
-                        left: 139px;
-                        >span {
-                            width: 150px;
-                            height: 2px;
-                            float: left;
-                            background: #d2d2d2;
-                        }
-                        >span:nth-child(2) {
-                            width: 7px;
-                            height: 7px;
-                            border-radius: 50%;
-                            border: 2px solid #D2D2D2;
-                            background: none;
-                            margin-top: -3px;
-                            float: left;
-                        }
+                        float: left;
+                        background: #d2d2d2;
+                    }
+                    >span:nth-child(2) {
+                        width: 7px;
+                        height: 7px;
+                        border-radius: 50%;
+                        border: 2px solid #D2D2D2;
+                        background: none;
+                        margin-top: -3px;
+                        float: left;
                     }
                 }
             }
@@ -315,6 +321,16 @@
                         color: #666;
                         margin: 0;
                     }
+                }
+            }
+            >div:nth-child(5) {
+                >.left {
+                    background-position: -32px 0px;
+                }
+            }
+            >div:nth-child(6) {
+                >.left {
+                    background-position: -64px 0px;
                 }
             }
         }
