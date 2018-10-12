@@ -405,9 +405,11 @@
     <script src="../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../js/yunshichang.js"></script>
     <script>
-        mt.onclick = function() {
-            document.body.scrollTop = document.documentElement.scrollTop = 0;
-        }
+        $('#mt').on('click', function(event) {
+            $('html,body').animate({
+                scrollTop: 0
+            })
+        })
     </script>
     <script>
         var mt = $('#mt')
