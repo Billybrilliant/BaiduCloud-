@@ -15,13 +15,25 @@ $(function () {
     // 背景滑动
     var middle = $('.middle'); 
     var midTop = middle.offset().top; 
+    var receive = $('.receive'); 
+    var receivetop = receive.offset().top; 
+    console.log(receivetop)
     $(document).on('scroll', function () { 
         var scrollTop = $(document).scrollTop();
+        console.log(scrollTop);
         if (scrollTop > midTop) {
             middle.css('backgroundPositionY','50%');
-        } else { 
+        }
+        if(scrollTop < midTop) { 
             middle.css('backgroundPositionY','0');
         }
+        if (scrollTop > receivetop) {
+            receive.css('backgroundPositionY','50%');
+        }
+        if(scrollTop < receivetop){ 
+            receive.css('backgroundPositionY','0');
+        };
+
     })
   
     // 事件委托
