@@ -109,6 +109,22 @@
     list-style: none;
     background-color: black;
 }
+.ul1>li{
+    transition: all .5s!important;
+    overflow: hidden;
+}
+.ul1>li:hover{
+   background: linear-gradient(to right, rgba(1, 194, 230, 0.4) 0%, rgba(17, 96, 255, 0.4) 100%);
+}
+.svg{
+    position: relative;
+    left: 42%;
+    bottom: 20px;
+    display: inline-block;
+    width: 40px;
+    height: 70px;
+    background: url(../images/data-warehouse_d74e9bab.svg) no-repeat center bottom;
+}
 .tabs li{
     height: 70px;
     

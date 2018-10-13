@@ -74,6 +74,7 @@ body{
 .ul1 li a{
     color: white;
 } */
+
 .tab_top{
     width: 1519.2px;
     /* width: 100%; */
@@ -190,7 +191,7 @@ body{
 .bot{
     width: 0;
     height: 2px;
-    transition: all 2s linear;
+    transition: all .5s linear;
     background: #108cee;
     margin-top: 20px;
 }
