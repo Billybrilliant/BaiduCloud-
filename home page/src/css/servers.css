@@ -129,13 +129,37 @@ ul>li>a>span{
     margin-top: 50px;
 
 }
-
-
-
+.often_servers1>img{
+    margin-right: 60%;
+}
+.often_servers2>img{
+    margin-right: 60%;
+}
+.often_servers3>img{
+    margin-right: 60%;
+}
+.often_servers4>img{
+    margin-right: 60%;
+}
+/* .often_servers5>img{
+    margin-right: 60%;
+} */
+.often_servers6>img{
+    margin-right: 60%;
+}
+.often_servers7>img{
+    margin-right: 60%;
+}
+.row>div{
+    text-align: center;
+}
+.row{
+    width: 1180px!important;
+}
 .often_servers1{
     width:22%;
     height: 200px;
-    border: 1px solid rgba(0,0,0, 0.3);
+    border: 1px solid #EBEBEB;
     float: left;
     margin-left:3%;
     overflow: hidden;
@@ -154,21 +178,29 @@ ul>li>a>span{
     top: 70px;
 }
 #sigin{
-    width: 70px;
-    height: 20px;
-    border: 1px solid rgba(0,0,0, 0.4);
+  
+    border: 1px solid #EBEBEB;
     margin: 0 auto;
     position: relative;
-    top: 100px;
+    width: 130px;
+    height: 34px;
+    top: 80px;
+    text-align: center;
+    line-height: 34px;
 }
 #sigin:hover{
-    background: blue;
+    background: #209BFD;
 }
+/* #sigin a{
+    display: inline-block;
+    width: 130px;
+    height: 34px;
+} */
 /* 第一行第二个 */
 .often_servers2{
     width:22%;
     height: 200px;
-    border: 1px solid rgba(0,0,0, 0.3);
+    border: 1px solid #EBEBEB;
     float: left;
     margin-left:3%;
     overflow: hidden;
@@ -187,22 +219,25 @@ ul>li>a>span{
     top: 70px;
 }
 #sigin2{
-    width: 100px;
-    height: 20px;
-    border: 1px solid rgba(0,0,0, 0.4);
+  
+    border: 1px solid #EBEBEB;
     margin: 0 auto;
     position: relative;
-    top: 100px;
+    width: 130px;
+    height: 34px;
+    top: 80px;
+    text-align: center;
+    line-height: 34px;
    
 }
 #sigin2:hover{
-    background: blue;
+    background:#209BFD
 }
 /* ======================== */
 .often_servers3{
     width:22%;
     height: 200px;
-    border: 1px solid rgba(0,0,0, 0.3);
+    border: 1px solid #EBEBEB;
     float: left;
     margin-left:3%;
     overflow: hidden;
@@ -221,21 +256,24 @@ ul>li>a>span{
     top: 70px;
 }
 #sigin3{
-    width: 70px;
-    height: 20px;
-    border: 1px solid rgba(0,0,0, 0.4);
+  
+    border: 1px solid #EBEBEB;
     margin: 0 auto;
     position: relative;
-    top: 100px;
+    width: 130px;
+    height: 34px;
+    top: 80px;
+    text-align: center;
+    line-height: 34px;
 }
 #sigin3:hover{
-    background: blue;
+    background:#209BFD
 }
 /* ============================= */
 .often_servers4{
     width:22%;
     height: 200px;
-    border: 1px solid rgba(0,0,0, 0.3);
+    border: 1px solid #EBEBEB;
     float: left;
     margin-left:3%;
     overflow: hidden;
@@ -254,16 +292,19 @@ ul>li>a>span{
     top: 70px;
 }
 #sigin4{
-    width: 70px;
-    height: 20px;
-    border: 1px solid rgba(0,0,0, 0.4);
+  
+    border: 1px solid #EBEBEB;
     margin: 0 auto;
     position: relative;
-    top: 100px;
+    width: 130px;
+    height: 34px;
+    top: 80px;
+    text-align: center;
+    line-height: 34px;
 }
 
 #sigin4:hover{
-    background: blue;
+    background:#209BFD
 }
 
 
@@ -271,7 +312,7 @@ ul>li>a>span{
 .often_servers6{
     width:22%;
     height: 200px;
-    border: 1px solid rgba(0,0,0, 0.3);
+    border: 1px solid #EBEBEB;
     float: left;
     margin-left:3%;
     overflow: hidden;
@@ -290,22 +331,25 @@ ul>li>a>span{
     top: 70px;
 }
 #sigin6{
-    width: 70px;
-    height: 20px;
-    border: 1px solid rgba(0,0,0, 0.4);
+ 
+    border: 1px solid #EBEBEB;
     margin: 0 auto;
     position: relative;
-    top: 100px;
+    width: 130px;
+    height: 34px;
+    top: 80px;
+    text-align: center;
+    line-height: 34px;
 }
 
 #sigin6:hover{
-    background: blue;
+    background:#209BFD
 }
 /* ================================= */
 .often_servers7{
     width:22%;
     height: 200px;
-    border: 1px solid rgba(0,0,0, 0.3);
+    border: 1px solid #EBEBEB;
     float: left;
     margin-left:3%;
     overflow: hidden;
@@ -324,15 +368,18 @@ ul>li>a>span{
     top: 70px;
 }
 #sigin7{
-    width: 70px;
-    height: 20px;
-    border: 1px solid rgba(0,0,0, 0.4);
+  
+    border: 1px solid #EBEBEB;
     margin: 0 auto;
     position: relative;
-    top: 100px;
+    width: 130px;
+    height: 34px;
+    top: 80px;
+    text-align: center;
+    line-height: 34px;
 }
 #sigin7:hover{
-    background: blue;
+    background:#209BFD
 }
 /* ============================-财务相关-======================================= */
 .money_about{
