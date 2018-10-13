@@ -717,13 +717,14 @@
       }
       .second .con>div>div>div:nth-child(3) p {
           color: red;
+          width: 80px;
       }
 
       .second .con>div>div>div:nth-child(3) a {
-          padding: 3px 6px;
+          padding: 3px 8px;
           border: 1px solid #108cee;
           color: #108cee;
-          margin-left: 18px;
+          margin-left: 10px;
       }
 
       .hf {
