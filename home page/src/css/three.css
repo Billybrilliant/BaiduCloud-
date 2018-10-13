@@ -64,8 +64,8 @@
     transition: all 0.4s ease-in-out;
 }
 .king1_c .one:hover{
-    background-color:lightseagreen  ;
-    opacity:.3;
+    background-color: rgba(16,140,238,0.3);
+    /* opacity:.3; */
 }
 .img1{
     width: 32px;
@@ -198,7 +198,25 @@
     position: relative;
 }
 .group_l li a:hover{
-    color: blue;
+    color: #108CEE;
+}
+.group_l li a:hover::after{
+    right: 30px;
+    border-color: #108CEE;
+}
+.group_l li a::after{
+    content: '';
+    border-top: 1px solid rgba(0,0,0,0.4);
+    border-left: 1px solid rgba(0,0,0,0.4);
+    transform: rotate(-225deg);
+    display: block;
+    position: absolute;
+    right: 20px;
+    width: 8px;
+    height: 8px;
+    top: 29px;
+    transition: all 0.2s ease-in-out 0.05s;
+
 }
 .group_l span{
     position: absolute;

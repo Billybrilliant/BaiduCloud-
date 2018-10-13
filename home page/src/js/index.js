@@ -48,7 +48,7 @@ $('.yun-server>.left>div').not($('.yun')).on('click', function() {
             opacity: 1,
         }, 700)
     }, 710)
-    console.log($('.yun>img').offset());
+
     $(this).children('img')[0].src = $('.yun>img')[0].src;
     $('.yun>img')[0].src = url;
     $(this).children('p').html($('.yun>p').html());
@@ -57,7 +57,7 @@ $('.yun-server>.left>div').not($('.yun')).on('click', function() {
     $('.yun>h2').html(h2)
     $(this).children('h4').html($('.yun>h4').html())
     $('.yun>h4').html(h4)
-    console.log(_index)
+ 
     $('.outer').css({
         transform: ' scale(0)',
         opacity: 0
@@ -170,7 +170,7 @@ $(document).scroll(function() {
     } while (arrDis.length < 3)
     arrDis.shift()
     var range = arrDis[1] - arrDis[0]
-    console.log(distance)
+
     if (distance > 800 && distance < 1400) {
         if (range > 0) {
             x -= 2;
@@ -184,7 +184,7 @@ $(document).scroll(function() {
 
     }
     if (distance >= 2400 && distance <= 2900) {
-        console.log(1)
+
         if (range > 0) {
             x -= 1.5;
         }

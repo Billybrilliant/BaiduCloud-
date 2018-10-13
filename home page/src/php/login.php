@@ -24,13 +24,13 @@ $result=mysqli_query($conn,$sql);
     if($result->fetch_row()[0]){ //函数返回值
 
         // echo '<span style="font-size:40px;color:blue;">登录成功</span>';
-        // echo '<a href="../html/home-page.html" style="font-size:40px; color:red;" id:"home";>回到首页</a>';
+        // echo '<a href="../html/index.html" style="font-size:40px; color:red;" id:"home";>回到首页</a>';
         // print_r ($uname);
         echo '<script language="javascript">';
     // echo "var a = JSON.stringify(".json_encode($re).");"; //间接转换，先转换数据格式
     // echo "console.log('json数据',a);";
     echo 'localStorage.setItem("uname",JSON.stringify('.json_encode($uname).'));';
-    echo 'window.location.href="../html/home-page.html";';  //登录成功后直接跳转到首页
+    echo 'window.location.href="../html/index.html";';  //登录成功后直接跳转到首页
     echo '</script>';
 
     }else{

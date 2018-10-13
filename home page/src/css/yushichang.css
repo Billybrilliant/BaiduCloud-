@@ -271,7 +271,8 @@
       }
 
       .hg ul>li:nth-last-child(n+2):hover {
-          transform: scale(1.05)
+          transform: scale(1.05);
+          box-shadow:0 0 20px rgba(0,0,0,.2)!important;
       }
 
       .hg ul>li img {
@@ -714,13 +715,6 @@
       .second .con>div>div>div:nth-child(2) {
           font-size: 12px;
       }
-<<<<<<< HEAD
-
-=======
-      .second .con>div>div>div:nth-child(3) {
-          padding-left: 0 !important;
-      }
->>>>>>> 929f7781b9eb63d57a436797af5bfbdbbb122cd9
       .second .con>div>div>div:nth-child(3) p {
           color: red;
       }

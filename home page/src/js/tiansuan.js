@@ -17,10 +17,10 @@ $(function () {
     var midTop = middle.offset().top; 
     var receive = $('.receive'); 
     var receivetop = receive.offset().top; 
-    console.log(receivetop)
+
     $(document).on('scroll', function () { 
         var scrollTop = $(document).scrollTop();
-        console.log(scrollTop);
+
         if (scrollTop > midTop) {
             middle.css('backgroundPositionY','50%');
         }

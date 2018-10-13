@@ -145,7 +145,7 @@ username.on('blur', function () {
                 username.css("outline", "none"); //去除聚焦时的边框
                 username.css("border-color", "#bdc7d3");
             }
-            // console.log(resultJson=='false');
+
             //提示内容
         };
     };
@@ -168,7 +168,7 @@ submit.on('mouseover', function () {
     } else { 
         loginone.removeAttr("action");
     }
-    // console.log(err);
+
 });
 
 

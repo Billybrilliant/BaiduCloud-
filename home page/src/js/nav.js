@@ -47,14 +47,14 @@ $(function () {
             // }
 
             $('.xs-login').hide();
-            // // console.log($('.xs-login'));
+
             // $('.xs-login').html('<span style="color:#fff;">' + storage + '</span>')
 
         } else {
             
             // if ($('#uname').attr('data')) {
             //     $('.xs-login').hide();
-            //     console.log(1);
+
             // }
             // $('.xs-login').hide();
         }
