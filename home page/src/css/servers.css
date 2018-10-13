@@ -16,11 +16,16 @@ li{
     #sousuo{
         width: 100%;
     }
+    .footer>.container>.btm{
+        padding: 0!important;
+        margin-top: 20px!important;
+    }
  }
  @media (max-width: 1200px) {
     #sousuo{
         width: 1360px!important;
     }
+    
  }
  #sousuo{
     height: 300px;
