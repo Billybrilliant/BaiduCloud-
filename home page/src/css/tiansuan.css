@@ -322,8 +322,10 @@ em{
     padding: 80px 0;
     /* background-color: red; */
     background-image: url("../images/PP.png");
+    /* background-position-y: -100px!important; */
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size:cover;
+    transition: all 1s;
 }
 .wifi{
     font-size: 30px;
@@ -436,7 +438,7 @@ em{
 }
 .card a:hover{
     text-decoration: none;
-    background: lightskyblue;
+    background: #108cee;
 }
 .card:hover .haonan{
     transform: translateY(-55px);  

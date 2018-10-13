@@ -12,7 +12,18 @@ $(function () {
         $(this).addClass('tt').siblings().removeClass('tt');
         $('.eee').eq(i).addClass('ddd').siblings().removeClass('ddd');
     })
-
+    // 背景滑动
+    var middle = $('.middle'); 
+    var midTop = middle.offset().top; 
+    $(document).on('scroll', function () { 
+        var scrollTop = $(document).scrollTop();
+        if (scrollTop > midTop) {
+            middle.css('backgroundPositionY','50%');
+        } else { 
+            middle.css('backgroundPositionY','0');
+        }
+    })
+  
     // 事件委托
     // var liList = $('.ul1>li'); //LI列表
     // liList.on('mouseover', function (event) {
