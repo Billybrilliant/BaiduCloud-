@@ -1,184 +1,214 @@
 @charset "utf-8";
-
-a{
+a {
     text-decoration: none;
-    color: rgba(255,255,255,0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
-a:hover{
+
+a:hover {
     text-decoration: none!important;
 }
-li{
+
+li {
     list-style: none;
-    color: rgba(255,255,255,0.8); 
+    color: rgba(255, 255, 255, 0.8);
 }
 
 @media (min-width: 1360px) {
-    #sousuo{
+    #sousuo {
         width: 100%;
     }
-    .footer>.container>.btm{
+    .footer>.container>.btm {
         padding: 0!important;
         margin-top: 20px!important;
     }
- }
- @media (max-width: 1200px) {
-    #sousuo{
+}
+
+@media (max-width: 1200px) {
+    #sousuo {
         width: 1360px!important;
     }
-    
- }
- #sousuo{
+}
+
+#sousuo {
     height: 300px;
     width: 100%;
-    background-image:url(../images/d31b0ef41bd5ad6e149c500d8dcb39dbb7fd3ceb.jpg); 
+    background-image: url(../images/d31b0ef41bd5ad6e149c500d8dcb39dbb7fd3ceb.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
- }
+}
 
-#help_center{
+#help_center {
     font-size: 36px;
     color: #fff;
 }
-#help_sousuo{
+
+#help_sousuo {
     width: 1180px;
     margin: 0 auto;
     position: relative;
     top: 110px;
 }
-#commit{
+
+#commit {
     width: 10%;
     height: 50px!important;
     background: #108CEE;
-    border:none;
+    border: none;
     color: #fff;
 }
-#tuijie{
+
+#tuijie {
     display: block;
     margin-left: 0!important;
     padding-left: 0!important;
+    margin-top: 15px !important;
 }
-#tuijie>li{
+
+#tuijie>li {
     list-style: none;
     float: left;
 }
 
-#tuijie>li>a{
+#tuijie>li>a {
     font-size: 14px;
 }
-#tuijie>li>a:hover{
-    color: rgba(255,255,255,0.8); 
+
+#tuijie>li>a:hover {
+    color: rgba(255, 255, 255, 0.8);
 }
+
+
 /* ============================================================= */
 
-.dao_nav{
+.dao_nav {
     width: 100%;
     height: 70px;
     background: #F5F5F5;
 }
-.dao_list{
+
+.dao_list {
     height: 70px;
     width: 1180px;
     margin: 0 auto;
 }
-.dao_list>ul{
+
+.dao_list>ul {
     width: 100%;
     height: 100%;
 }
-.dao_list>ul>li{
+
+.dao_list>ul>li {
     float: left;
     width: 33%;
     height: 100%;
 }
-ul>li>a>span{
+
+ul>li>a>span {
     display: block;
     font-size: 16px;
     height: 70px;
-    line-height:70px;
+    line-height: 70px;
     text-align: center;
     color: #333;
 }
 
 
 /* ====================== */
+
 @media (min-width: 1360px) {
-    .server,.money_about,.user_pretend,.often_proplem,.self_help{
+    .server,
+    .money_about,
+    .user_pretend,
+    .often_proplem,
+    .self_help {
         width: 100%;
     }
-  
-    .containner{
-        width: 100%!important; 
+    .containner {
+        width: 100%!important;
     }
+}
 
- }
-
- @media (max-width: 1200px) {
-    .server,.money_about,.user_pretend,.often_proplem,.self_help{
+@media (max-width: 1200px) {
+    .server,
+    .money_about,
+    .user_pretend,
+    .often_proplem,
+    .self_help {
         width: 1360px!important;
     }
- 
-    .containner{
-        width: 1360px!important; 
+    .containner {
+        width: 1360px!important;
     }
-
- }
+}
 
 
 /* =========================常用服务============================== */
-.server>div>h2{
+
+.server>div>h2 {
     margin-bottom: 50px;
     margin-top: 50px;
+}
 
-}
-.often_servers1>img{
+.often_servers1>img {
     margin-right: 60%;
 }
-.often_servers2>img{
+
+.often_servers2>img {
     margin-right: 60%;
 }
-.often_servers3>img{
+
+.often_servers3>img {
     margin-right: 60%;
 }
-.often_servers4>img{
+
+.often_servers4>img {
     margin-right: 60%;
 }
+
+
 /* .often_servers5>img{
     margin-right: 60%;
 } */
-.often_servers6>img{
+
+.often_servers6>img {
     margin-right: 60%;
 }
-.often_servers7>img{
+
+.often_servers7>img {
     margin-right: 60%;
 }
-.row>div{
+
+.row>div {
     text-align: center;
 }
-.row{
+
+.row {
     width: 1180px!important;
 }
-.often_servers1{
-    width:22%;
+
+.often_servers1 {
+    width: 22%;
     height: 200px;
     border: 1px solid #EBEBEB;
     float: left;
-    margin-left:3%;
+    margin-left: 3%;
     overflow: hidden;
 }
 
-.often_servers1>img{
+.often_servers1>img {
     width: 72px;
     height: 72px;
     position: relative;
     left: 30%;
     top: 50px;
-    
 }
-#tend_h4{
+
+#tend_h4 {
     position: relative;
     top: 70px;
 }
-#sigin{
-  
+
+#sigin {
     border: 1px solid #EBEBEB;
     margin: 0 auto;
     position: relative;
@@ -188,38 +218,44 @@ ul>li>a>span{
     text-align: center;
     line-height: 34px;
 }
-#sigin:hover{
+
+#sigin:hover {
     background: #209BFD;
 }
+
+
 /* #sigin a{
     display: inline-block;
     width: 130px;
     height: 34px;
 } */
+
+
 /* 第一行第二个 */
-.often_servers2{
-    width:22%;
+
+.often_servers2 {
+    width: 22%;
     height: 200px;
     border: 1px solid #EBEBEB;
     float: left;
-    margin-left:3%;
+    margin-left: 3%;
     overflow: hidden;
 }
 
-.often_servers2>img{
+.often_servers2>img {
     width: 72px;
     height: 72px;
     position: relative;
     left: 30%;
     top: 50px;
-    
 }
-#tend_h2{
+
+#tend_h2 {
     position: relative;
     top: 70px;
 }
-#sigin2{
-  
+
+#sigin2 {
     border: 1px solid #EBEBEB;
     margin: 0 auto;
     position: relative;
@@ -228,35 +264,38 @@ ul>li>a>span{
     top: 80px;
     text-align: center;
     line-height: 34px;
-   
 }
-#sigin2:hover{
-    background:#209BFD
+
+#sigin2:hover {
+    background: #209BFD
 }
+
+
 /* ======================== */
-.often_servers3{
-    width:22%;
+
+.often_servers3 {
+    width: 22%;
     height: 200px;
     border: 1px solid #EBEBEB;
     float: left;
-    margin-left:3%;
+    margin-left: 3%;
     overflow: hidden;
 }
 
-.often_servers3>img{
+.often_servers3>img {
     width: 72px;
     height: 72px;
     position: relative;
     left: 30%;
     top: 50px;
-    
 }
-#tend_h3{
+
+#tend_h3 {
     position: relative;
     top: 70px;
 }
-#sigin3{
-  
+
+#sigin3 {
     border: 1px solid #EBEBEB;
     margin: 0 auto;
     position: relative;
@@ -266,33 +305,37 @@ ul>li>a>span{
     text-align: center;
     line-height: 34px;
 }
-#sigin3:hover{
-    background:#209BFD
+
+#sigin3:hover {
+    background: #209BFD
 }
+
+
 /* ============================= */
-.often_servers4{
-    width:22%;
+
+.often_servers4 {
+    width: 22%;
     height: 200px;
     border: 1px solid #EBEBEB;
     float: left;
-    margin-left:3%;
+    margin-left: 3%;
     overflow: hidden;
 }
 
-.often_servers4>img{
+.often_servers4>img {
     width: 72px;
     height: 72px;
     position: relative;
     left: 30%;
     top: 50px;
-    
 }
-#tend_h5{
+
+#tend_h5 {
     position: relative;
     top: 70px;
 }
-#sigin4{
-  
+
+#sigin4 {
     border: 1px solid #EBEBEB;
     margin: 0 auto;
     position: relative;
@@ -303,35 +346,36 @@ ul>li>a>span{
     line-height: 34px;
 }
 
-#sigin4:hover{
-    background:#209BFD
+#sigin4:hover {
+    background: #209BFD
 }
 
 
 /* ================================= */
-.often_servers6{
-    width:22%;
+
+.often_servers6 {
+    width: 22%;
     height: 200px;
     border: 1px solid #EBEBEB;
     float: left;
-    margin-left:3%;
+    margin-left: 3%;
     overflow: hidden;
 }
 
-.often_servers6>img{
+.often_servers6>img {
     width: 72px;
     height: 72px;
     position: relative;
     left: 30%;
     top: 50px;
-    
 }
-#tend_h6{
+
+#tend_h6 {
     position: relative;
     top: 70px;
 }
-#sigin6{
- 
+
+#sigin6 {
     border: 1px solid #EBEBEB;
     margin: 0 auto;
     position: relative;
@@ -342,112 +386,137 @@ ul>li>a>span{
     line-height: 34px;
 }
 
-#sigin6:hover{
-    background:#209BFD
+#sigin6:hover {
+    background: #209BFD
 }
+
+
 /* ================================= */
-.often_servers7{
-    width:22%;
+
+.often_servers7 {
+    width: 22%;
     height: 200px;
     border: 1px solid #EBEBEB;
     float: left;
-    margin-left:3%;
+    margin-left: 3%;
     overflow: hidden;
 }
 
-.often_servers7>img{
+.often_servers7>img {
     width: 72px;
     height: 72px;
     position: relative;
     left: 30%;
     top: 50px;
-    
 }
-#tend_h7{
+
+#tend_h7 {
     position: relative;
     top: 70px;
 }
-.text-center>a{
+
+.text-center>a {
     color: #108CEE;
 }
-.g_p1>p{
+
+.g_p1>p {
     transition: all .3s;
 }
-.g_p1>p:hover{
+
+.g_p1>p:hover {
     padding-left: 20px;
 }
-.g_p1>p:hover a{
-    color: #259def!important;
-}
-.problem1 a{
-    transition: all .4s;
-}
-.problem1 a:hover{
-    color: #259def!important;
-    padding-left: 20px;
-}
-.problem2 a{
-    transition: all .4s;
-}
-.problem2 a:hover{
-    color: #259def!important;
-    padding-left: 20px;
-}
-.problem3 a{
-    transition: all .4s;
-}
-.problem3 a:hover{
-    color: #259def!important;
-    padding-left: 20px;
-}
-.problem4 a{
-    transition: all .4s;
-}
-.problem4 a:hover{
-    color: #259def!important;
-    padding-left: 20px;
-}
-.g_p2>p{
-    transition: all .3s;
-}
-.g_p2>p:hover{
-    padding-left: 20px;
-}
-.g_p2>p:hover a{
+
+.g_p1>p:hover a {
     color: #259def!important;
 }
 
-.g_p3>p{
-    transition: all .3s;
+.problem1 a {
+    transition: all .4s;
 }
-.g_p3 p:hover{
+
+.problem1 a:hover {
+    color: #259def!important;
     padding-left: 20px;
 }
-.g_p3 p:hover a{
-    color: #259def!important;
+
+.problem2 a {
+    transition: all .4s;
 }
-.g_p3 p:hover{
+
+.problem2 a:hover {
+    color: #259def!important;
+    padding-left: 20px;
+}
+
+.problem3 a {
+    transition: all .4s;
+}
+
+.problem3 a:hover {
+    color: #259def!important;
+    padding-left: 20px;
+}
+
+.problem4 a {
+    transition: all .4s;
+}
+
+.problem4 a:hover {
+    color: #259def!important;
+    padding-left: 20px;
+}
+
+.g_p2>p {
+    transition: all .3s;
+}
+
+.g_p2>p:hover {
+    padding-left: 20px;
+}
+
+.g_p2>p:hover a {
     color: #259def!important;
 }
 
-.shake{
-    color: #108CEE!important;
-    position: relative;
+.g_p3>p {
+    transition: all .3s;
+}
+
+.g_p3 p:hover {
+    padding-left: 20px;
+}
+
+.g_p3 p:hover a {
+    color: #259def!important;
+}
+
+.g_p3 p:hover {
+    color: #259def!important;
+}
+
+.shake-box:hover .shake {
     animation: shake 1s infinite ease;
 }
-@keyframes shake{
-    0%{
+
+.shake {
+    color: #108CEE!important;
+    position: relative;
+}
+
+@keyframes shake {
+    0% {
         left: 0;
     }
-    50%{
+    50% {
         left: 5px;
     }
-    100%{
+    100% {
         left: 0;
     }
 }
-#sigin7{
-  
+
+#sigin7 {
     border: 1px solid #EBEBEB;
     margin: 0 auto;
     position: relative;
@@ -457,15 +526,19 @@ ul>li>a>span{
     text-align: center;
     line-height: 34px;
 }
-#sigin7:hover{
-    background:#209BFD
-}
-/* ============================-财务相关-======================================= */
-.money_about{
-    background: rgba(0,0,0, 0.1);
+
+#sigin7:hover {
+    background: #209BFD
 }
 
-#ground{
+
+/* ============================-财务相关-======================================= */
+
+.money_about {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#ground {
     width: 80%;
     height: 200px;
     background: #F5F5F5;
@@ -473,157 +546,177 @@ ul>li>a>span{
     margin-bottom: 50px;
 }
 
-#ground>div>img{
+#ground>div>img {
     width: 72px;
     height: 72px;
     display: block;
     margin: 0 auto;
 }
+
+
 /* ===== */
-.group1{
+
+.group1 {
     width: 20%;
     margin-top: 30px;
     float: left;
-    border-right: 1px solid rgba(0,0,0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.group2{
+.group2 {
     width: 20%;
     margin-top: 30px;
     float: left;
-    border-right: 1px solid rgba(0,0,0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.group3{
+.group3 {
     width: 20%;
     margin-top: 30px;
     float: left;
-    border-right: 1px solid rgba(0,0,0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.group4{
+.group4 {
     width: 20%;
     margin-top: 30px;
     float: left;
-    border-right: 1px solid rgba(0,0,0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.group5{
+.group5 {
     width: 20%;
     margin-top: 30px;
     float: left;
-    
 }
+
 
 /* ===============================账号备案================================== */
-#ground_pretend{
+
+#ground_pretend {
     width: 80%;
     height: 180px;
     margin: 0 auto;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
-
-.user_pretend>div>#ground_pretend>div>div>img{
+.user_pretend>div>#ground_pretend>div>div>img {
     width: 32px;
     height: 32px;
     margin-left: 10%;
 }
-.user_pretend>div>#ground_pretend>div>div>span{
+
+.user_pretend>div>#ground_pretend>div>div>span {
     font-size: 18px;
-    color: rgba(0,0,0,0.85);
+    color: rgba(0, 0, 0, 0.85);
     margin-left: 10%;
 }
 
 
-
 /* ===== */
-#ground_pretend>div>p{
+
+#ground_pretend>div>p {
     margin-left: 34%;
 }
-.jvli,.jvli1,.jvli2{
+
+.jvli,
+.jvli1,
+.jvli2 {
     margin-top: 5%;
 }
 
-.g_p1{
+.g_p1 {
     width: 30%;
     float: left;
-    border: 1px solid rgba(0,0,0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
-.g_p2{
+.g_p2 {
     width: 30%;
     margin-left: 4.5%;
     float: left;
-    border: 1px solid rgba(0,0,0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-
-.g_p3{
+.g_p3 {
     width: 30%;
     margin-left: 4.5%;
     float: left;
-    border: 1px solid rgba(0,0,0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 
 /* ================================常见问题======================================= */
-.often_proplem{
-    background: rgba(0,0,0, 0.1);
+
+.often_proplem {
+    background: rgba(0, 0, 0, 0.1);
 }
 
-.problem1,.problem2,.problem3,.problem4{
+.problem1,
+.problem2,
+.problem3,
+.problem4 {
     width: 22%;
     float: left;
     margin-left: 3%;
 }
-.often_proplem>div>div>div>ul>li>a{
+
+.often_proplem>div>div>div>ul>li>a {
     color: #999;
 }
-.often_proplem>div>div>div>ul>li{
+
+.often_proplem>div>div>div>ul>li {
     margin-top: 15px;
 }
 
 
 /* ==============================自助工具=================================== */
 
-#ground_self{
+#ground_self {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 80px;
 }
-#ground_self>div>img{
+
+#ground_self>div>img {
     width: 32px;
     height: 32px;
     display: block;
-
 }
 
-.self_help1,.self_help2,.self_help3,.self_help4{
+.self_help1,
+.self_help2,
+.self_help3,
+.self_help4 {
     width: 22%;
     float: left;
     margin-left: 3%;
-   
 }
-.self_help1:hover{
-    background: rgba(0,0,0, 0.1);
+
+.self_help1:hover {
+    background: rgba(0, 0, 0, 0.1);
 }
-.self_help2:hover{
-    background: rgba(0,0,0, 0.1);
+
+.self_help2:hover {
+    background: rgba(0, 0, 0, 0.1);
 }
-.self_help3:hover{
-    background: rgba(0,0,0, 0.1);
+
+.self_help3:hover {
+    background: rgba(0, 0, 0, 0.1);
 }
-.self_help4:hover{
-    background: rgba(0,0,0, 0.1);
+
+.self_help4:hover {
+    background: rgba(0, 0, 0, 0.1);
 }
-#ground_self>div>h3{
+
+#ground_self>div>h3 {
     font-size: 18px;
     color: #333;
     margin-bottom: 20px;
 }
-#ground_self>div>p{
+
+#ground_self>div>p {
     font-size: 14px;
     color: #999;
 }
