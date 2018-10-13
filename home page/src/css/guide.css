@@ -312,6 +312,22 @@ p {
     padding: 0!important;
     transition: all 1s;
 }
+
+.shake{
+    position: relative;
+    animation: shake 1s infinite ease;
+}
+@keyframes shake{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 5px;
+    }
+    100%{
+        left: 0;
+    }
+}
 .view_1:hover{
     box-shadow: 4px 4px 4px rgb(219, 219, 219);
 }

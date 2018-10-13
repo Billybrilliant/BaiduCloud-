@@ -367,6 +367,85 @@ ul>li>a>span{
     position: relative;
     top: 70px;
 }
+.text-center>a{
+    color: #108CEE;
+}
+.g_p1>p{
+    transition: all .3s;
+}
+.g_p1>p:hover{
+    padding-left: 20px;
+}
+.g_p1>p:hover a{
+    color: #259def!important;
+}
+.problem1 a{
+    transition: all .4s;
+}
+.problem1 a:hover{
+    color: #259def!important;
+    padding-left: 20px;
+}
+.problem2 a{
+    transition: all .4s;
+}
+.problem2 a:hover{
+    color: #259def!important;
+    padding-left: 20px;
+}
+.problem3 a{
+    transition: all .4s;
+}
+.problem3 a:hover{
+    color: #259def!important;
+    padding-left: 20px;
+}
+.problem4 a{
+    transition: all .4s;
+}
+.problem4 a:hover{
+    color: #259def!important;
+    padding-left: 20px;
+}
+.g_p2>p{
+    transition: all .3s;
+}
+.g_p2>p:hover{
+    padding-left: 20px;
+}
+.g_p2>p:hover a{
+    color: #259def!important;
+}
+
+.g_p3>p{
+    transition: all .3s;
+}
+.g_p3 p:hover{
+    padding-left: 20px;
+}
+.g_p3 p:hover a{
+    color: #259def!important;
+}
+.g_p3 p:hover{
+    color: #259def!important;
+}
+
+.shake{
+    color: #108CEE!important;
+    position: relative;
+    animation: shake 1s infinite ease;
+}
+@keyframes shake{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 5px;
+    }
+    100%{
+        left: 0;
+    }
+}
 #sigin7{
   
     border: 1px solid #EBEBEB;
