@@ -23,7 +23,7 @@ $row=mysqli_fetch_row($result);
     $raw_success ='true';
 	$raw_fail ='false';
 
-    $res_success = json_encode($raw_success);
+    $res_success = json_encode($raw_success);  //json_encode转为json对象格式  json_decode:将json对象格式转为php变量
     $res_fail = json_encode($raw_fail);
 
   if($row==null){
