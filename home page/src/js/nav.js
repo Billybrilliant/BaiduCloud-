@@ -1,4 +1,4 @@
-$(function () {
+~(function () {
     $('.search_btn').on('click', function () {
         $('.search_box').addClass('active')
         $('.input').addClass('input_active')
