@@ -1119,7 +1119,7 @@
   font-size: .55rem;
   color: #666;
   text-align: center;
-  line-height: .55rem;
+  line-height: 1rem;
   margin: 0;
   margin: .35rem 0 .55rem 0;
 }
@@ -1428,7 +1428,6 @@
   font-size: .55rem;
   color: #989aa3;
   margin-top: .37rem;
-  line-height: .7rem;
 }
 
 .xs-market > ul > .box1,
