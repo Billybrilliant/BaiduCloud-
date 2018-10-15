@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../iconfont/font_y601kvhhyml/iconfont.css">
-    <script src="../js/nav.js"></script>
+
 </head>
 
 <body>
@@ -413,10 +413,17 @@
     <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../js/yunshichang.js"></script>
+    <script src="../js/huakuai.js"></script>
+    <script src="../js/nav.js"></script>
+    <script>
+        $('#nav').onload('../html/nav.html');
+    </script>
 </body>
 <script>
     mt.onclick = function() {
-        document.body.scrollTop = document.documentElement.scrollTop = 0;
+     $('html,body').animate({
+         scrollTop:0,
+     });
     }
 </script>
 <script>
