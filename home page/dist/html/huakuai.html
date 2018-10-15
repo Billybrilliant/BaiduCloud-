@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="../css/huakuai.min.css">
+<link rel="stylesheet" href="../iconfont/font_iobukg83q/iconfont.css">
+
+<article class="fixed">
+    <ul>
+        <li>
+            <a href="">
+                <span><i class="iconfont icon-border_color"></i></span>
+                <p>业务<br>咨询</p>
+            </a>
+        </li>
+        <li>
+            <a href="../html/bce.html">
+                <span><i class="iconfont icon-zixun"></i></span>
+                <p> 官网<br>论坛</p>
+            </a>
+
+        </li>
+        <li>
+            <a href="">
+                <span><i class="iconfont icon-weibiaoti-"></i></span>
+                <p>联系<br>我们</p>
+            </a>
+        </li>
+        <li id="mt">
+            <span><i class="iconfont icon-huidingbu"></i></span>
+            <p>返回<br>顶部</p>
+        </li>
+    </ul>
+</article>
+<script>
+    $('#mt').on('click', function(event) {
+        $('html,body').animate({
+            scrollTop: 0
+        })
+    })
+</script>
+<script>
+    var mt = $('#mt')
+    $(window).on('scroll', function() {
+        if ($(window).scrollTop() > $(window).height())
+            mt.show();
+        else mt.hide();
+    });
+    $(window).trigger('scroll');
+</script>

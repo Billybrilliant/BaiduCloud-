@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <title>bootstrap</title>
+    <link href="../../../node_modules/_bootstrap@3.3.7@bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bec.min.css">
+    <link rel="stylesheet" href="../iconfont/font_y601kvhhyml/iconfont.css">
+    <link rel="stylesheet" href="../css/footer.min.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <!-- 顶部导航 -->
+    <div class="nav">
+        <div class="container clearfix">
+            <h1 class="main-logo-bce fl">
+                <a href="../html/index.html"></a>
+            </h1>
+            <ul class="header-login-status fr">
+                <li class="item"><a href="../html/bce.html">论坛</a></li>
+                <li class="item"><a href="../html/login.html" id="login">登录</a></li>
+                <li class="item sign_in"><a href="../html/reg.html">注册</a></li>
+                <li class="item uname"><span id="uname"></span> <b id="exit">退出</b></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 主体部分 -->
+    <div id="eui-main-body">
+        <div class="focus-notice-box container clearfix">
+            <div class="fui-content">
+                <!-- 第一块内容 -->
+                <div class="bceone">
+                    <!-- 左边轮播 -->
+                    <div class="model-wrapper-left fl">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators" id="point">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="../images/3350d1b8-892f-4471-bff5-049a8e0e4c17.png" alt="...">
+                                </div>
+                                <div class="item">
+                                    <img src="../images/a3be4b6f-4795-4ae4-b97b-82eb68b34519.png" alt="...">
+
+                                </div>
+                                <div class="item">
+                                    <img src="../images/9cf08fab-2026-41c5-b9f4-e4d1c93075cc.png" alt="...">
+
+                                </div>
+                                <div class="item">
+                                    <img src="../images/9faca705-01c8-4a5a-886f-a60ed8b299ef.png" alt="...">
+
+                                </div>
+                                <div class="item">
+                                    <img src="../images/f8953830-0f8b-40e6-818a-09b830bf76f2.png" alt="...">
+
+                                </div>
+
+                            </div>
+
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                <span class="iconfont icon-jiantou1" aria-hidden="true" id="leftrep"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                <span class="iconfont icon-jiantou-copy" aria-hidden="true" id="rightrep"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 右边选项卡 -->
+                    <div class="model-wrapper-right fr" id="right_tab">
+                        <div id="righttab">
+
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs row" role="tablist" id="tabnav">
+                                <li role="presentation" class="active col-md-4 col-xs-4" id="tabone"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><span id="tabimg1"></span>
+                   <span class="txt"> 精彩活动</span></a></li>
+                                <li role="presentation" class="col-md-4 col-xs-4" id="tabtwo"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><span id="tabimg2"></span> <span class="txttwo">公司/产品动态</span> </a></li>
+                                <li role="presentation" class="col-md-4 col-xs-4" id="tabthree"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"><span id="tabimg3"></span> <span class="txtthree">热门问题</span> </a></li>
+
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="home">
+                                    <ul class="tabul">
+                                        <li class="txt-item"><a href="javascript:void(0);">「天匠计划」——百度云天工MASTER招募活动1.0正式启动</a></li>
+                                        <li class="txt-item"><a href="javascript:void(0);">【友情链接】百度云官网友链交换公告</a></li>
+                                        <li class="txt-item"><a href="javascript:void(0);">【活动中】智能呼叫中心实时语音识别 包年不限量 年中钜惠</a></li>
+                                        <li class="txt-item"><a href="javascript:void(0);">【活动结束】CDN流量包1折闪促，更有1TB免费领！</a></li>
+                                        <li class="txt-item"><a href="javascript:void(0);">百度云云市场建站套餐大优惠，最高降幅达3500元，更可免费获赠域名！</a></li>
+                                        <li class="txt-item"><a href="javascript:void(0);">【福利来袭】购买弹性公网IP，送免费云服务器！</a></li>
+
+                                    </ul>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="profile">
+                                    <ul class="tabul">
+                                        <li class="txt-item"><a href="javascript:void(0);">云计算行业奥斯卡揭晓 百度开放云斩获三项大奖.0正式启动</a></li>
+                                        <li class="txt-item"><a href="javascript:void(0);">百度大数据公开课开讲在即！</a></li>
+                                        <li class="txt-item"><a href="javascript:void(0);">支持https的云虚拟主机问世啦！ 包年不限量 年中钜惠</a></li>
+                                        <li class="txt-item"><a href="javascript:void(0);">五月域名促销活动火热来袭，.cn域名19元无限量！</a></li>
+                                        <li class="txt-item"><a href="javascript:void(0);">4月域名火热促销，给你实实在在的优惠！</a></li>
+                                        <li class="txt-item"><a href="javascript:void(0);">《百度开放云月刊》：百度开放云2016大招</a></li>
+
+                                    </ul>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="messages">
+                                    <ul class="tabul">
+                                        <li class="txt-item"><a href="javascript:void(0);">bae可以绑定自己的域名吗？和bch的区别在哪里呢？.0正式启动</a></li>
+                                        <li class="txt-item"><a href="javascript:void(0);">百度云新人入门指南--新手问题必看帖</a></li>
+                                        <li class="txt-item"><a href="javascript:void(0);">域名解析没状态 一直解析 包年不限量 年中钜惠</a></li>
+                                        <li class="txt-item"><a href="javascript:void(0);">FTP上传经常中断处理方法</a></li>
+                                        <li class="txt-item"><a href="javascript:void(0);">注销云服务账号</a></li>
+                                        <li class="txt-item"><a href="javascript:void(0);">BCC跟ECS有什么不同的地方吗</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- 第二块内容 -->
+                <div class="bcetwo">
+                    <div class="tit">产品论坛</div>
+                    <div class="con">
+                        <ul class="regularly-item-list">
+                            <!-- 云计算基础服务 -->
+                            <li class="first viewport-flip" id="lione">
+                                <!-- hover显示 -->
+                                <div class="flip-box flip out" style="display:none;" id="lione_div1">
+                                    <div class="item-title">云计算基础服务</div>
+                                    <div class="flip-item-text">
+
+                                        提供全系列的计算，网络和存储产品，满足不同场景的IT需求，百度专家团队为您提供最优的解决方案支持。
+
+                                    </div>
+                                    <div class="flip-item-info">
+                                        <a href="javascript:void(0);">
+                                            <img src="../images/discuss.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 默认显示 -->
+                                <div class="flip-box flip in" style="display:block;" id="lione_div2">
+                                    <div class="item-title">云计算基础服务</div>
+                                    <div class="flip-item-pic">
+                                        <img src="../images/sky-ser.png" alt="">
+                                    </div>
+                                    <div class="flip-item-discuss">
+                                        <p>主题：<span>1613</span></p>
+                                        <p>帖子：<span>4622</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- 天像 -->
+                            <li class="first viewport-flip" id="litwo">
+                                <!-- hover显示 -->
+                                <div class="flip-box flip in" style="display:none;" id="litwo_div1">
+                                    <div class="item-title">天像·智能多媒体</div>
+                                    <div class="flip-item-text">
+
+
+                                        提供音视频、图像和文档等智能多媒体服务平台，助力企业轻松搭建智能多媒体应用。
+
+
+                                    </div>
+                                    <div class="flip-item-info">
+                                        <a href="javascript:void(0);">
+                                            <img src="../images/discuss.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 默认显示 -->
+                                <div class="flip-box flip in" style="display:block;" id="litwo_div2">
+                                    <div class="item-title">天像·智能多媒体</div>
+                                    <div class="flip-item-pic">
+                                        <img src="../images/sky-image.png" alt="">
+                                    </div>
+                                    <div class="flip-item-discuss">
+                                        <p>主题：<span>348</span></p>
+                                        <p>帖子：<span>588</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- 天工 -->
+                            <li class="first viewport-flip" id="lithree">
+                                <!-- hover显示 -->
+                                <div class="flip-box flip in" style="display:none;" id="lithree_div1">
+                                    <div class="item-title">天工·智能物联网</div>
+                                    <div class="flip-item-text">
+
+
+                                        轻松构建从智能硬件、智能家居，到车联网、工业4.0、零售O2O，到智慧农业、智慧城市等各类物联网应用。
+
+
+                                    </div>
+                                    <div class="flip-item-info">
+                                        <a href="javascript:void(0);">
+                                            <img src="../images/discuss.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 默认显示 -->
+                                <div class="flip-box flip in" style="display:block;" id="lithree_div2">
+                                    <div class="item-title">天工·智能物联网</div>
+                                    <div class="flip-item-pic">
+                                        <img src="../images/sky-work.png" alt="">
+                                    </div>
+                                    <div class="flip-item-discuss">
+                                        <p>主题：<span>215</span></p>
+                                        <p>帖子：<span>412</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- 天算 -->
+                            <li class="first viewport-flip" id="lifour">
+                                <!-- hover显示 -->
+                                <div class="flip-box flip in" style="display:none;" id="lifour_div1">
+                                    <div class="item-title">天算·智能大数据</div>
+                                    <div class="flip-item-text">
+
+
+                                        提供完备的大数据托管服务、智能服务以及众多解决方案，帮助用户实现智能业务，引领未来。
+
+
+                                    </div>
+                                    <div class="flip-item-info">
+                                        <a href="javascript:void(0);">
+                                            <img src="../images/discuss.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 默认显示 -->
+                                <div class="flip-box flip in" style="display:block;" id="lifour_div2">
+                                    <div class="item-title">天算·智能大数据</div>
+                                    <div class="flip-item-pic">
+                                        <img src="../images/sky-data.png" alt="">
+                                    </div>
+                                    <div class="flip-item-discuss">
+                                        <p>主题：<span>39</span></p>
+                                        <p>帖子：<span>94</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 第三块内容 -->
+                <div class="bcethree">
+                    <div class="tit">服务专区</div>
+                    <div class="con">
+                        <!-- left -->
+                        <div class="model-wrapper-left fl">
+                            <!-- lefttop -->
+                            <div class="forum-model-wrapper" id="freshman-wrapper">
+                                <div class="ser-img">
+                                    <a href="javascript:void(0);"><img src="../images/freshman-logo.png" alt=""></a>
+                                </div>
+                                <div class="ser-info">
+                                    <div class="forum-model-name">
+                                        <a href="javascriipt:void(0);">
+                                            <p>新手专区</p>
+                                        </a>
+                                    </div>
+                                    <div class="forum-model-information">
+                                        <p>主题：1111</p>
+                                        <p>帖子：1860</p>
+                                        <p>版主：猫熊xu</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- leftbtm -->
+                            <div class="forum-model-wrapper" id="buy-wrapper">
+                                <div class="ser-img">
+                                    <a href="javascript:void(0);"><img src="../images/buy-info.png" alt=""></a>
+                                </div>
+                                <div class="ser-info">
+                                    <div class="forum-model-name">
+                                        <a href="javascript:void(0);">
+                                            <p>购买咨询</p>
+                                        </a>
+                                    </div>
+                                    <div class="forum-model-information">
+                                        <p>主题：340</p>
+                                        <p>帖子：433</p>
+                                        <p>版主：超人</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- right -->
+                        <div class="model-wrapper-right fl">
+                            <!-- righttop -->
+                            <div class="forum-model-wrapper" id="freshman-wrapper">
+                                <div class="ser-img">
+                                    <a href="javascript:void(0);"><img src="../images/record-service.png" alt=""></a>
+                                </div>
+                                <div class="ser-info">
+                                    <div class="forum-model-name">
+                                        <a href="javascriipt:void(0);">
+                                            <p>备案服务</p>
+                                        </a>
+                                    </div>
+                                    <div class="forum-model-information">
+                                        <p>主题：175</p>
+                                        <p>帖子：364</p>
+                                        <p>版主：百度开放云</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- rightbtm -->
+                            <div class="forum-model-wrapper" id="buy-wrapper">
+                                <div class="ser-img">
+                                    <a href="javascript:void(0);"><img src="../images/question.png" alt=""></a>
+                                </div>
+                                <div class="ser-info">
+                                    <div class="forum-model-name">
+                                        <a href="javascript:void(0);">
+                                            <p>问题反馈</p>
+                                        </a>
+                                    </div>
+                                    <div class="forum-model-information">
+                                        <p>主题：760</p>
+                                        <p>帖子：1319</p>
+                                        <p>版主：天啦噜</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="../../../node_modules/_jquery@3.3.1@jquery/dist/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="../../../node_modules/_bootstrap@3.3.7@bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/bec.min.js"></script>
+    <script src="../js/footer.min.js"></script>
+</body>
+
+</html>
