@@ -14,9 +14,10 @@ $(function () {
     })
     // 背景滑动
     var middle = $('.middle'); 
-    var midTop = middle.scrollTop(); 
+    var midTop = middle.offset().top;
+
     var receive = $('.receive'); 
-    var receivetop = receive.scrollTop(); 
+    var receivetop = receive.offset().top; 
 
     $(document).on('scroll', function () { 
         var scrollTop = $(document).scrollTop();

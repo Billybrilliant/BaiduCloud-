@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+.btm{
+    padding: 30px 0 0 0!important;
+}
 #nav{
     width: 1519px;
     position: absolute;
